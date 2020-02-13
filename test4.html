@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript"src="script/jquery-3.4.1.min.1.js">	
+		</script>
+		<style type="text/css">
+			#div2{
+				display: none;
+			}
+			#line2{
+				display: none;
+			}
+			
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/personage_dataCSS.css"/>
+	    <script>
+	    function show1(){
+	    document.getElementById("div1").style.display="block";
+	    document.getElementById("div2").style.display="none";
+		
+		
+	    };
+	    function show2()
+	    {
+	    document.getElementById("div2").style.display="block";
+	    document.getElementById("div1").style.display="none";
+		
+	    }
+		
+		
+		
+		
+	    </script>
+	</head>
+	<body>
+		<div class="Client_binding">
+			  <div class="cb_div1">
+			  	<div class="cb_web">
+			  		<span id="cbweb">
+			  			客户绑定
+			  		</span>
+					 <span id="cd" class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+			  	</div>
+			  </div>
+			 
+			  <div class="cb_div2">
+			  	<div class="div2_phone">
+			  		<span id="dw"onclick="show1()">
+			  			手机号绑定
+			  		</span>
+			  	</div>
+				<div class="div2_coding"onclick="show2()">
+					<span id="dc">
+						联系人编码绑定
+					</span>
+				</div>
+			  </div>
+			  <div class="cb_div3">
+			  	<div class="div3_default"id="line1">
+			  		
+			  	</div>
+				<div class="div3_default"id="line2">
+					
+				</div>
+			  </div>
+			  
+	 <!-- 联系人编码绑定 -->
+			 <div class="userphone_ma"id="div2">
+			  <form action="" method="post">
+			  	<div class="div4_now">
+			  		<div class="now_binding">
+			  			<span id="nb">
+			  				当前绑定人：
+			  			</span>
+			  		</div>
+			  		<div class="now_submit">
+			  			<input type="" name="" id="ns" value="" placeholder="nimilianxr"/>
+			  		</div>
+			  	</div>
+				<div class="div4_now">
+					<div class="now_binding">
+						<span id="nb">
+							联系人编码：
+						</span>
+					</div>
+					<div class="now_submit">
+						<input type="" name="" id="ns" value="" placeholder="请输入联系人编码"/>
+					</div>
+				</div>
+				<div class="div4_button">
+					<div class="db_unbind">
+						<input type="submit" id="dvu" value="解绑"/>
+					</div>
+					<div class="db_binding">
+						<input type="submit" id="dbb" value="绑定"/>
+					</div>
+				</div>
+				
+				</form>	
+			  </div>
+			 
+			<!-- ------------------------------------------------------ --> 
+			  <div class="cb_div4"id="div1">
+			  	<form action="" method="post">
+			  		<div class="div4_now">
+			  			<div class="now_binding">
+			  				<span id="nb">
+			  					当前绑定人：
+			  				</span>
+			  			</div>
+						<div class="now_submit">
+							<input type="text" id="ns" placeholder="nimilianxr"/>
+						</div>
+			  		</div>
+					<div class="div4_phone">
+						<div class="dp_web">
+							<span id="dweb">
+								*手机号：
+							</span>
+						</div>
+						<div class="dp_submit">
+							<input type="text"id="dps"  placeholder="请输入手机号"/>
+						</div>
+						<div class="ca_blank">
+							
+						</div>
+						<div class="dp_butt">
+							获取验证码
+						</div>
+					</div>
+					<div class="div4_verification">
+						<div class="dv_web">
+							<span id="dvm">
+								*验证码：
+							</span>
+						</div>
+						<div class="dv_submit">
+							<input type="text" id="dvs" placeholder="验证码"/>
+						</div>
+					</div>
+					
+					<div class="div4_button">
+						<div class="db_blank">
+							
+						</div>
+						<div class="db_unbind">
+							<input type="submit" id="dvu" value="解绑"/>
+						</div>
+						<div class="db_blank2">
+							
+						</div>
+						<div class="db_binding">
+							<input type="submit" id="dbb" value="绑定"/>
+						</div>
+					</div>
+			  		
+					
+			  	</form>
+			  </div>	  
+		</div>
+	</body>
+</html>

@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人中心</title>
+		<script type="text/javascript"src="script/jquery-3.4.1.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<script type="text/javascript"src="bootstrap-3.3.7-dist/js/bootstrap.min.js">	
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myindexcss.css"/>
+	</head>
+	<!-- 我要寄件：在线下单，网点查询，价格时效查询
+	     我的订单：全部订单，货物追踪
+		 账户管理：个人资料设置
+	 -->
+	<body>
+		<!-- <div class="usheader">
+			
+		</div> -->
+		<div class="menu-mright">
+		
+		<div class="menu">	
+		<dl class="list_dl">
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我要寄件</p>
+					<div class="xiala">
+					   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+					</div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li"><a href="online_order.html" target="_blank">在线下单</a></li>
+		                <li class="list_li">网点查询</li>
+		                <li class="list_li">价格时效查询</li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我的订单</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li">全部订单</li>
+		                <li class="list_li">货物追踪</li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>账户管理</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li">个人资料设置</li>
+		            </ul>
+		        </dd>
+		        
+		    </dl>
+		</div>	
+		<div class="menu-right">
+			
+		</div>	
+	</div>		
+	</body>	    
+		   <script type="text/javascript" src="script/jquery.validate.min.js"></script>
+		   <script type="text/javascript">
+			$(".list_dt").on("click",function () {
+				$('.list_dd').stop();
+				$(this).siblings("dt").removeAttr("id");
+				if($(this).attr("id")=="open"){
+					$(this).removeAttr("id").siblings("dd").slideUp();
+				}else{
+					$(this).attr("id","open").next().slideDown().siblings("dd").slideUp();
+				}
+			});
+			</script>
+	
+</html>

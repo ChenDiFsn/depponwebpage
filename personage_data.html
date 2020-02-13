@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript"src="script/jquery-3.4.1.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<script type="text/javascript"src="bootstrap-3.3.7-dist/js/bootstrap.min.js">	
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/personage_dataCSS.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myindexcss.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headcss.css"/>
+		<script type="text/javascript" src="script/personage_dataJS.js">
+			
+		</script>
+		<style type="text/css">
+			
+		</style>
+	</head>
+	<body scroll="no">	
+	<div class="upup">
+		<!-- 导航栏-->
+		<nav class="navbar navbar-default" style="background-color: #003c8d;color: #fff;">
+			
+		  <div class="container-fluid">
+		    
+		    <div class="navbar-header">
+			  <a class="navbar-brand" href="#"><img id="img" src="https://www.deppon.com/get/asset/ff80808168bf14850169c28025850098" ></a>
+		      <a class="navbar-brand" href="#">首页</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <form class="navbar-form navbar-left">
+		        <div class="form-group">
+		          <input type="text" class="form-control" >
+		        </div>
+		        <button type="submit" class="btn btn-default">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</button>
+		      </form>
+		      <ul class="nav navbar-nav navbar-right">
+				 <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>  
+				 <li><a href="#">用户</a></li> 
+				 <li><a >|</a></li> 
+		        <li><a href="#">登出</a></li>
+		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		  </nav>
+	</div>
+	<nav class="navbar navbar-default" style="background-color: #003c8d;">
+		<div class="userimage">
+		<div class="user">
+			 <span class="glyphicon glyphicon-user userid" aria-hidden="true">			 
+			</span>		
+		</div>
+		<div class="uid"style="color: white;">
+			你好，XXXXXXXXX
+		</div>
+		</div>
+	</nav>
+	<!-- 左边 下拉框-->
+	<div class="menu-mright">	
+		<div class="menu">	
+		<dl class="list_dl">
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我要寄件</p>
+					<div class="xiala">
+					   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+					</div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li" id="online"><a href="online_order.html">在线下单</a></li>
+		                <li class="list_li" id="branch"><a href="branch_select.html">网点查询</a></li>
+		                <li class="list_li" id="price"><a href="price_aging_select.html"></a>价格时效查询</li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我的订单</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li"id="all"><a href="all_orders.html">全部订单</a></li>
+		                <li class="list_li"id="cargo"><a href="cargo_track.html">货物追踪</a></li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>账户管理</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li" id="personage"><a href="personage_data.html">个人资料设置</a></li>
+		            </ul>
+		        </dd>
+		        
+		    </dl>
+			</div>	
+		</div>		
+<!-- 右边 信息主页-->
+          <div class="sol"style="width: 100px;height: 100px;background-color: red;display: none;">
+          	nishiyigedashabi
+          </div>
+		<div class="bigboss">
+			<h1>个人资料设置</h1>
+	<!-- 账户信息 -->
+			<div class="account_information ">
+				
+				<div class="ai_div1">
+					<span id="ai_span1">
+						账户信息
+					</span>
+				</div>
+			
+				<div class="ai_imginfo">	
+					<div class="ai_div2">
+						<img src="img/c3.jpg" class="userimg">
+					</div>
+					
+					<div class="ai_div3">
+						<div class="lu_tn">
+							<div class="div3_loginuser">
+								<span id="div3_lu">
+								  登录用户：<p>sj15307953316</p>	
+								</span>
+							</div>
+							<div class="div3_truename">
+								<span id="div3_tn">
+									实名认证
+								</span>
+							</div>
+						</div>
+						<div class="div3_time">
+							<span id="div3_ti">
+								上次登录时间：<p>2020-01-06 08：35</p>
+							</span>
+						</div>
+						<div class="div3_hint">
+							<span id="div3_hi">
+								*若您的登陆信息与实际不符，建议您及时<a href="#">修改密码</a>
+							</span>
+						</div>	
+						</div>
+				</div>
+			</div>
+			<hr >
+	<!-- 基本信息 -->		
+			<div class="essential_information">	
+				<div class="ei_div1">
+					<span id="info">
+						基本信息
+					</span>
+				</div>
+			
+				 <div class="ei_div2 form-group" >
+				 	<div class="div2_user">
+						
+				 		<div class="user_name">
+				 			<span id="un">
+				 				*姓名：
+				 			</span>
+				 		</div>
+						<!-- 603*40 -->
+						<div class="un_text">
+							<input type=""  id="un_tt"placeholder="姓名"/>
+						</div>
+				 	</div>
+					 <div class="user_nickname">
+					 	 <div class="unn_name">
+					 	 	<span id="unn">
+					 	 		昵称：
+					 	 	</span>
+					 	 </div>
+						 <div class="unn_text">
+						 	 <input type=""id="ut" placeholder="你的昵称" />
+						 </div>
+					 </div>
+					 <div class="user_sex">
+					 	 <div class="us">
+					 	 	<span id="us_web">
+					 	 		*性别：
+					 	 	</span>
+					 	 </div>
+						 <div class="us_radio_man">
+						 	<input type="radio" id="urm"/>
+								<label id="label_man">
+									<span id="man">
+										男
+									</span>
+								</label>
+						 </div>
+						 <div class="us_radio_woman">
+						 	<input type="radio"id="urw" />
+								<label  id="label_woman">
+									<span id="woman">
+										女
+									</span>
+								</label>
+						 </div>
+					 </div>
+					 <div class="user_email">
+					 	 <div class="ue_web">
+					 	 	<span id="uw">
+					 	 		*邮箱：
+					 	 	</span>
+					 	 </div>
+					 
+						 <div class="ue_submit">
+						 	<input type="text" id="ue_sub" placeholder="邮箱"/>
+						 </div>
+					 
+						 <div class="ue_update">
+						 	<span id="uu">
+						 		<a href="#">修改邮箱</a>
+						 	</span>
+						 </div>
+					 </div>
+					 <div class="contact_way">
+					 	   <div class="cw_web">
+					 	   	<span id="cw">
+					 	   		*联系方式：
+					 	   	</span>
+					 	   </div>
+					 	   <div class="cw_submit">
+					 	   	<input type="text"  id="cs"  placeholder="15307953316"/>
+					 	   </div>
+					 	   <div class="cw_update">
+					 	   	<span id="cu">
+					 	   		<a href="#">修改手机</a>
+					 	   	</span>
+					 	   </div>
+					 </div>
+					 <div class="contact_address">
+					 	    <div class="ca_web">
+					 	    	<span id="cweb">
+					 	    		*联系地址：
+					 	    	</span>
+					 	    </div>
+					 	    <div class="ca_city">
+					 	    	<input type="text" name="" id="cc" value="" placeholder="请选择/输入城市"/>
+					 	    </div>
+							<div class="ca_blank">
+								
+							</div>
+					 	    <div class="ca_address">
+					 	    	<input type="text" name="" id="ca" value="" placeholder="请输入详细地址"/>
+					 	    </div>
+					 </div>
+					 <div class="The_default_site">
+						
+					 	    <div class="tds_web">
+					 	    	<span id="tw">
+					 	    		*默认网点：
+					 	    	</span>
+					 	    </div>
+							
+					 	    <div class="tds_city">
+					 	    	<input type="text" name="" id="tc" value="" placeholder="请选择/输入城市"/>
+					 	    </div>
+							<div class="ca_blank">
+								
+							</div>
+					 	    <div class="tds_submit">
+					 	    	<input type="text" name="" id="ts" value="" />
+					 	    </div>
+					 </div>
+					 
+					 <div class="tds_true">
+					 	<button type="button"class="butt_true">确认</button>
+					 </div>
+				 </div>
+				 
+				 
+			</div>
+			<hr >
+	<!-- 客户绑定 -->		
+			<div class="Client_binding">
+				  <div class="cb_div1">
+				  	<div class="cb_web">
+				  		<span id="cbweb">
+				  			客户绑定
+				  		</span>
+						 <span id="cd" class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+				  	</div>
+				  </div>
+				 
+				  <div class="cb_div2">
+				  	<div class="div2_phone">
+				  		<span id="dw">
+				  			手机号绑定
+				  		</span>
+				  	</div>
+					<div class="div2_coding">
+						<span id="dc">
+							联系人编码绑定
+						</span>
+					</div>
+				  </div>
+				  <div class="cb_div3">
+				  	<div class="div3_default">
+				  		
+				  	</div>
+				  </div>
+				  <!-- 联系人编码绑定
+				 <div class="userphone_ma">
+				  <form action="" method="post">
+				  	<div class="div4_now">
+				  		<div class="now_binding">
+				  			<span id="nb">
+				  				当前绑定人：
+				  			</span>
+				  		</div>
+				  		<div class="now_submit">
+				  			<input type="" name="" id="ns" value="" placeholder="nimilianxr"/>
+				  		</div>
+				  	</div>
+					<div class="div4_now">
+						<div class="now_binding">
+							<span id="nb">
+								联系人编码：
+							</span>
+						</div>
+						<div class="now_submit">
+							<input type="" name="" id="ns" value="" placeholder="请输入联系人编码"/>
+						</div>
+					</div>
+					<div class="div4_button">
+						<div class="db_unbind">
+							<input type="submit" id="dvu" value="解绑"/>
+						</div>
+						<div class="db_binding">
+							<input type="submit" id="dbb" value="绑定"/>
+						</div>
+					</div>
+					
+					</form>	
+				  </div>
+				  -->
+				 
+				  <div class="cb_div4">
+				  	<form action="" method="post">
+				  		<div class="div4_now">
+				  			<div class="now_binding">
+				  				<span id="nb">
+				  					当前绑定人：
+				  				</span>
+				  			</div>
+							<div class="now_submit">
+								<input type="text" id="ns" placeholder="nimilianxr"/>
+							</div>
+				  		</div>
+						<div class="div4_phone">
+							<div class="dp_web">
+								<span id="dweb">
+									*手机号：
+								</span>
+							</div>
+							<div class="dp_submit">
+								<input type="text"id="dps"  placeholder="请输入手机号"/>
+							</div>
+							<div class="ca_blank">
+								
+							</div>
+							<div class="dp_butt">
+								获取验证码
+							</div>
+						</div>
+						<div class="div4_verification">
+							<div class="dv_web">
+								<span id="dvm">
+									*验证码：
+								</span>
+							</div>
+							<div class="dv_submit">
+								<input type="text" id="dvs" placeholder="验证码"/>
+							</div>
+						</div>
+						
+						<div class="div4_button">
+							<div class="db_blank">
+								
+							</div>
+							<div class="db_unbind">
+								<input type="submit" id="dvu" value="解绑"/>
+							</div>
+							<div class="db_blank2">
+								
+							</div>
+							<div class="db_binding">
+								<input type="submit" id="dbb" value="绑定"/>
+							</div>
+						</div>
+				  		
+						
+				  	</form>
+				  </div>	  
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="enddd">
+			<div class="enddd_ul">
+			
+			<ul class="nav nav-pills">
+			  <li style="font-size: 18px;"><a id="en" href="#">隐私政策</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">货物追踪</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">价格时效</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">营业网点</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">违纪查询</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">联系德邦</a></li>
+			</ul>
+		</div>
+		<div class="enddd_img">
+			<img src="img/f3.jpg"class="img1" >
+			<img src="img/f2.jpg"class="img2" >
+		</div>
+			
+		</div>	
+	</body>
+	<script type="text/javascript" src="script/jquery.validate.min.js"></script>
+	<script type="text/javascript">
+				$(".list_dt").on("click",function () {
+					$('.list_dd').stop();
+					$(this).siblings("dt").removeAttr("id");
+					if($(this).attr("id")=="open"){
+						$(this).removeAttr("id").siblings("dd").slideUp();
+					}else{
+						$(this).attr("id","open").next().slideDown().siblings("dd").slideUp();
+					}
+				});
+				</script>
+</html>

@@ -1,0 +1,566 @@
+
+.bigboss{
+	background-color:#f8f9fa;
+	width:1460px;
+	height: 1370px;
+	position: relative;
+	margin-left: 249px;
+	
+}
+
+.ai_div1{
+	width: 1460px;
+	height: 30px;
+}
+#ai_span1{
+	font-size: 20px;
+}
+
+
+.ai_imginfo{
+	width: 1460px;
+	height: 168px;
+	
+}
+.ai_div2 {
+    width: 136px;
+    height: 128px;
+    display: inline-block;
+    
+    float: left;
+    border-radius: 28px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.userimg{
+	width: 120px;
+	    height: 112px;
+	    margin-top: 7px;
+}
+.ai_div3{
+	width: 1293px;
+	height: 168px;
+	display: inline-block;
+	
+	float: right;
+}
+.lu_tn{
+	width:376px;
+	height: 35px;
+}
+
+.div3_loginuser {
+    width: 282px;
+    height: 49px;
+    float: left;
+    margin-top: 20px;
+}
+.div3_truename{
+	width: 94px;
+	height: 35px;
+	border: 1px solid #003C8D;
+	float: right;
+	margin-top: 16px;
+	text-align: center;
+	border-radius: 10px;
+}
+#div3_tn{
+	line-height: 34px;
+}
+.div3_time {
+    width: 1128px;
+    height: 67px;
+    margin-top: 38px;
+}
+.div3_hint{
+	width: 1128px;
+	height: 21px;
+}
+/* 基本信息 */
+.ei_div1{
+	width: 1440px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: -10px;
+}
+#info{
+	font-size: 21px;
+}
+
+.ei_div2{
+	width:992px;
+	height: 600px;
+	margin-left: 20px;
+}
+/* 姓名 */
+.div2_user{
+	width: 985px;
+	height: 77px;
+	margin-top: 40px;
+}
+.user_name{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+}
+.un_text{
+	width: 752px;
+	height: 40px;
+	display: inline-block;
+}
+#un_tt{
+	width: 752px;
+	height: 40px;
+	border-radius: 9px;
+	border:0;   /*去除输入框阴影*/ 
+	border: 2px solid gainsboro;
+	padding: 8px;
+	
+}
+/* 昵称 */
+.user_nickname{
+	width: 985px;
+	height: 77px;
+}
+.unn_name{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+}
+.unn_text{
+	width: 752px;
+	height: 40px;
+	display: inline-block;
+}
+#ut{
+	width: 752px;
+	height: 40px;
+	border-radius: 9px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+
+/* 性别 */
+.user_sex{
+	width: 985px;
+	height: 77px;
+}
+
+.us{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+}
+.us_radio_man{
+	width: 156px;
+	height: 41px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.us_radio_woman{
+	width: 156px;
+	height: 41px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+	
+#label_man{
+	margin-left: 20px;
+}
+#label_woman{
+	margin-left: 20px;
+}
+
+/* 邮箱 */
+.user_email{
+	width: 985px;
+	height: 77px;
+}
+
+.ue_web{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+}
+.ue_submit{
+	width: 564px;
+	height: 40px;
+	display: inline-block;
+}
+
+#ue_sub{
+	width: 564px;
+	height: 40px;
+	border-radius: 9px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+.ue_update{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+}
+.ca_blank{
+	width: 62px;
+	height: 40px;
+	display: inline-block;
+}
+
+
+/* 联系方式 */
+.contact_way{
+	width: 985px;
+	height: 77px;
+}
+.cw_web{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+}
+.cw_submit{
+	width: 564px;
+	height: 40px;
+	display: inline-block;
+}
+
+#cs{
+	width: 564px;
+	height: 40px;
+	border-radius: 9px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+.cw_update{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+}
+/* 联系地址 */
+.contact_address{
+	width: 985px;
+	height: 77px;
+}
+.ca_web{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+}
+.ca_city{
+	width: 336px;
+	height: 40px;
+	display: inline-block;
+}
+#cc{
+	width: 336px;
+	height: 40px;border-radius: 9px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+.ca_address{
+	width: 336px;
+	height: 40px;
+	display: inline-block;
+}
+#ca{
+	width: 336px;
+	height: 40px;border-radius: 9px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+
+/* 默认网点 */
+.The_default_site{
+	
+	width: 985px;
+	height: 77px;
+}
+.tds_web{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+}
+.tds_city{
+	width: 336px;
+	height: 40px;
+	display: inline-block;
+}
+#tc{
+	width: 336px;
+	height: 40px;border-radius: 9px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+.tds_submit{
+	width: 336px;
+	height: 40px;
+	display: inline-block;
+}
+#ts{
+	width: 336px;
+	height: 40px;border-radius: 9px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+.tds_true{
+	width: 270px;
+	height: 36px;
+}
+
+.butt_true{
+	width: 270px;
+	height: 36px;
+	background-color: #fbd200;
+	border-radius: 9px;
+	margin-left: 315px;
+	border:0;   /*去除输入框阴影*/
+	padding: 8px;
+}
+
+
+
+/* 客户绑定 */
+.Client_binding{
+}
+.cb_div1{
+	margin-top: -40px;
+}
+
+.cb_div4{
+	width: 994px;
+	height: 216px;
+	    margin-left: 20px;
+}
+#cbweb{
+	font-size: 21px;
+}
+.cb_web{
+	width: 1440px;
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 47px;
+}
+#cd{
+	width: 20px;
+	height: 20px;
+}
+.div2_phone{
+	width: 110px;
+	height: 32px;
+	background-color: #ffffff;
+	display: inline-block;
+	    margin-left: 56px;
+		margin-top: 35px;
+		
+}
+#dw{
+	font-size: 17px;
+}
+#dc{
+	font-size: 17px;
+}
+.div2_coding{
+	width: 146px;
+	height: 32px;
+	display: inline-block;
+}
+.cb_div3{
+	width: 1460px;
+	height: 2px;
+ margin-left: 20px;
+}
+.div3_default{
+	width: 110px;
+	height: 2px;
+	background-color: #003C8D;
+	    margin-left: 20px;
+}
+.div4_now{
+	margin-top: 20px;
+}
+.div4_phone{
+	height: 85px;
+}
+
+.now_binding{
+	
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+}
+.now_submit{
+	
+	width: 752px;
+	height: 40px;
+	display: inline-block;
+}
+#ns{
+	width: 752px;
+	height: 40px;
+	border-radius: 9px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+
+.dp_web{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+}
+.dp_submit{
+	width: 438px;
+	height: 40px;
+	display: inline-block;
+	
+}
+#dps{
+	width: 438px;
+	height: 40px;
+	border-radius: 9px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+
+.dp_butt{
+	width: 242px;
+	height: 36px;
+	border: 1px solid #003C8D;
+	text-align: center;
+	border-radius: 4px;
+	display: inline-block;
+	line-height: 32px;
+}
+
+.dv_web{
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+}
+.dv_submit{
+	width: 752px;
+	height: 40px;
+	display: inline-block;
+}
+#dvs{
+	width: 752px;
+	height: 40px;
+	border-radius: 9px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+
+.db_unbind{
+	width: 250px;
+	height: 36px;
+	display: inline-block;
+}
+#dvu{
+	width: 250px;
+	height: 36px;
+	border-radius: 8px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	background-color: #fbd200;
+	padding: 8px;
+}
+
+
+.db_binding{
+	width: 250px;
+	height: 36px;
+	display: inline-block;
+}
+#dbb{
+	width: 250px;
+	height: 36px;
+	border-radius: 8px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	background-color: #fbd200;
+	padding: 8px;/*使得文本框内默认字体不顶格显示*/
+}
+.db_blank{
+	width: 150px;
+	height: 36px;
+	display: inline-block;
+}
+.db_blank2{
+	width: 62px;
+	height: 36px;
+	display: inline-block;
+}
+
+
+/* 底部 */
+.navbar-default .navbar-nav>li>a {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #FFFFFF;
+}
+.navbar-default .navbar-brand {
+   color: #FFFFFF;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: #FFFFFF;
+	}
+.navbar-default {
+	padding: 110px 280px;
+}
+ul{
+	/*去掉无序列表前面黑点效果*/
+	list-style-type: none;
+}
+.nav>li {
+	
+	margin-left: 0px;
+}
+.endd{
+	margin-top: -20px;
+}
+ .enddd{
+	 height: 200px;
+	 background-color: #003c8d;
+	 border: 1px solid white;
+ }
+ .img1{
+	 margin-left: -620px;
+	 height: 50px;
+	 margin-top: 30px;
+ }
+ .img2{
+	 margin-left: 330px;
+		 width: 125px;
+ }
+ 
+ .nav>li.disabled>a {
+	 color:white;
+ }
+ .enddd_ul{
+	 height: 40px;
+	 width: 686px;
+	 background-color: #003c8d;
+	 margin-left: 147px;
+ }
+ 
+ .nav>li {
+	 margin-left: 52px;
+ }
+ .a1{
+	 font-size: 20px;
+ }

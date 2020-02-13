@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript"src="script/jquery-3.4.1.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<script type="text/javascript"src="bootstrap-3.3.7-dist/js/bootstrap.min.js">	
+		</script>
+		<script type="text/javascript"src="script/online_orderJS.js">
+			
+		</script>
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/online_orderCSS.css"/>
+		<link rel="stylesheet" type="text/css" href="css/personage_dataCSS.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headcss.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myindexcss.css"/>
+	</head>
+	<body>
+		<div class="upup">
+			<!-- 导航栏-->
+			<nav class="navbar navbar-default" style="background-color: #003c8d;color: #fff;">
+				
+			  <div class="container-fluid">
+			    
+			    <div class="navbar-header">
+				  <a class="navbar-brand" href="#"><img id="img" src="https://www.deppon.com/get/asset/ff80808168bf14850169c28025850098" ></a>
+			      <a class="navbar-brand" href="#">首页</a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <form class="navbar-form navbar-left">
+			        <div class="form-group">
+			          <input type="text" class="form-control" >
+			        </div>
+			        <button type="submit" class="btn btn-default">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+			      </form>
+			      <ul class="nav navbar-nav navbar-right">
+					 <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>  
+					 <li><a href="#">用户</a></li> 
+					 <li><a >|</a></li> 
+			        <li><a href="#">登出</a></li>
+			        
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			  </nav>
+		</div>
+	<!-- 左边 下拉框-->
+	<div class="menu-mright">
+		
+		<div class="menu">	
+		<dl class="list_dl">
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我要寄件</p>
+					<div class="xiala">
+					   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+					</div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li" id="online"><a href="online_order.html">在线下单</a></li>
+		                <li class="list_li" id="branch"><a href="branch_select.html">网点查询</a></li>
+		                <li class="list_li" id="price"><a href="price_aging_select.html"></a>价格时效查询</li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我的订单</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li"id="all"><a href="all_orders.html">全部订单</a></li>
+		                <li class="list_li"id="cargo"><a href="cargo_track.html">货物追踪</a></li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>账户管理</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li" id="personage"><a href="personage_data.html">个人资料设置</a></li>
+		            </ul>
+		        </dd>
+		        
+		    </dl>
+			</div>	
+		</div>
+<!-- 右边 -->			
+		<div class="menu-right">
+		<form id="myForm" action="http://www.cdzu.top/deppon/waybill/placeAnOrder" method="POST">	
+			<div class="mright_up">
+				 	<span id="ul_span">在线下单</span>
+
+			</div>
+			
+<!-- 下模板 1247*1298-->			
+			<div class="mright_down">
+				<div class="vertical_moulding">
+						<div class="vm_son1">
+							
+						</div>
+						<div class="vm_son2">
+							
+						</div>
+						<div class="vm_son3">
+							
+						</div>
+						<div class="vm_son4">
+							
+						</div>
+				</div>
+				<div class="big_import">		
+			<!-- 收发件信息 1122*381-->
+			
+						<div class="sf_info">
+							
+							<div class="sf_info_content">
+								<span id="si_span"class="ss">收发信息</span>
+							</div>
+							
+					<!-- 寄件人信息 547*286-->
+					
+								<div class="js_user">
+					                  <div class="jj_username">
+											<span id="jusername">
+												*寄件人姓名
+											</span>
+										</div>
+										<div class="jj_input1">			
+											<div class="jj_inp1">
+												<div class="ji_inp1">
+													<input type="text" id="jj_input_entity1" name="particularsList[0].particularsName"placeholder="请输入寄件人姓名"/>
+												</div>
+												
+												<!-- <div class="ji_spa1">
+													<span id="jj_span1" class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+												</div>		 -->			
+											</div>
+											<div class="jj_a1">
+												<span id="jj_span2">
+													<a href="#">智能地址填写</a>
+												</span>
+											</div>
+										</div>
+										
+										<div class="jj_username">
+											<span id="jusername">
+												*联系电话
+											</span>
+										</div>
+										<div class="jj_input2">
+											<div class="jj_input2">
+												<input type="text"  id="jj_input_entity2"name="particularsList[0].particularsPhone"placeholder="请输入手机号/电话(含区号)"/>
+												<span id="jj_span2">
+													
+												</span>
+											</div>
+										</div>
+										<div class="jj_username">
+											<span id="jusername">
+												*寄件地址
+											</span>
+										</div>
+										<div class="jj_input3">
+											<div class="jj_input3">
+												<input type="text"  id="jj_input_entity3"name="senderAddress" placeholder="请选择/输入城市"/>
+												<input type="text" id="jj_input_entity4"name="particularsList[0].address.addressStreet" class="jie4" placeholder="详细街道"/>
+												<div class="jj_a2">
+													<!-- <input type="submit"id="jj_span3"value="保存联系人"/> -->
+													<span id="">
+														<a href="#">保存联系人</a>
+													</span>
+												</div>
+										       
+											</div>
+										</div>
+										
+									
+								</div>
+				<!-- 收件人信息 547*286-->				
+							<div class="sj_user">
+								
+									<div class="sj_username">
+										<span id="susername">
+											*收件人姓名
+										</span>
+									</div>
+									<div class="sj_input">			
+										<div class="sj_input1">
+											
+											<div class="si_inp1">
+												<input type="text" id="sj_input_entity1"name="particularsList[1].particularsName" placeholder="请输入收件人姓名"/>
+											</div>
+											
+											<div class="si_spa1">
+												<span id="sj_span1" class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+											</div>		
+						
+										</div>
+										<div class="sj_a1">
+											<span id="sj_span2">
+												<a href="#">智能地址填写</a>
+											</span>
+										</div>
+									</div>
+									
+									<div class="sj_username">
+										<span id="jusername">
+											*联系电话
+										</span>
+									</div>
+									<div class="sj_input2">
+										<div class="sj_input2">
+											<input type="text" id="sj_input_entity2"name="particularsList[1].particularsPhone" placeholder="请输入手机号/电话(含区号)"/>
+											<span id="sj_span2">
+												
+											</span>
+										</div>
+									</div>
+									<div class="sj_username">
+										<span id="jusername">
+											*收件地址
+										</span>
+									</div>
+									<div class="sj_input3">
+										<div class="sj_input3">
+											<input type="text" id="sj_input_entity3"name="receiveAddress" placeholder="请选择/输入城市"/>
+											<input type="text"  id="sj_input_entity4"name="particularsList[1].address.addressStreet" placeholder="详细街道"/>
+											<div class="sj_a2">
+												<!-- <input type="submit"id="sj_span3" value="保存联系人" /> -->
+												<span id="">
+													<a href="#">保存联系人</a>
+												</span>
+											</div>
+									
+										</div>
+									</div>			
+							</div>				
+						</div>
+					
+			<!-- 寄托物信息 1122*164-->			
+						
+						<div class="jt_info">
+							<div class="jt_info_content">
+								<span id="ji_span"class="ss">寄托物信息</span>
+							</div>
+							
+				<!-- 左 273*69 -->			
+							<div class="thing_name">
+									<div class="tnu_left">
+										<div class="thing_name_up_left">
+											<span id="left_span">
+												*货物名称
+											</span>
+										</div>
+										<div class="thing_name_up_right">
+											<span id="right_span">
+												<a href="">违禁品列表</a>
+											</span>
+										</div>
+								  </div>
+						<!-- 182*40 -->		  
+								<div class="thing_name_down">
+									<input type="text" id="tnd"name="cargoinfo.cargoName"  placeholder="文件"/>
+								</div>
+							</div>
+							
+							
+							<div class="thing_weight">
+									<div class="thing_name_up_middle">
+										<span id="middle_span">
+											*重量（kg）
+										</span>
+									</div>
+									 <div class="thing_name_down">
+										<input type="text" id="tnd"name="cargoinfo.cargoWeight" placeholder="重量"/>
+									 </div>
+							</div>
+							
+							
+							
+							<div class="thing_volume">
+								<div class="tnu_right">
+										<div class="thing_name_up_left">
+											<span id="left_span">
+												*体积（m*m*m）
+											</span>
+										</div>
+										<div class="thing_name_up_right">
+											<span id="right_span">
+												<a href="">货运小帮手^</a>
+											</span>
+										</div>
+								</div>
+								<div class="thing_name_down">
+									<input type="text" id="tnd"name="cargoinfo.cargoBulk" placeholder="0-999"/>
+								</div>
+							</div>
+							
+						</div>
+			<!-- 选择产品服务 1122*216-->			
+						<div class="choose_service">
+							<div class="choose_service_content">
+								<span id="cs_span"class="ss">选择产品服务</span>
+							</div>
+							
+					<!-- 1094*121 -->	
+						  <div class="cs_ttsw">  		 
+					<!-- 973*52 -->
+							<div class="thing_time_sale">
+						<!-- 331*32 -->		
+								<div class="tts_name">
+									<span id="tts_name_left">
+										产品名称
+									</span>
+								</div>
+								<div class="tts_time">
+									<span id="tts_name_left">
+										预计时效
+									</span>
+								</div>
+								<div class="tts_sale">
+									<span id="tts_name_left">
+										单价
+									</span>
+								</div>
+							</div>
+						<!-- 1003*64 -->	
+							<div class="write_info">
+								   <span id="wf_conter">
+									请先填写收发信息和寄托物信息
+								   </span>
+							</div>
+						 </div>	
+							
+						</div>
+						
+			<!-- 服务信息 -->			
+						<div class="service_info">
+							<div class="service_info_content">
+								<span id="sein_span"class="ss">服务信息</span>
+							</div>		
+							  <div class="service_info_up">
+								  <div class="service_left">	 
+									   <div class="sl_cargo">
+											<span id="cargo_support_value">
+												货物保价
+											</span>
+											<span id="cargo_img">
+												
+											</span>
+									   </div>
+										<div class="sl_input1">
+											<input type="text"  id="sl_input_entity1"name="cargoinfo.cargoAmends" placeholder="建议足额保价"/>
+										</div>
+										
+								</div>
+								
+								<div class="service_left">
+									   <div class="sl_cargo">
+											<span id="cargo_support_value">
+												货物数量
+											</span>
+											<span id="cargo_img">
+												
+											</span>
+									   </div>
+										<div class="sl_input1">
+											<input type="text"  id="sl_input_entity1"name="cargoinfo.cargoNum" placeholder="货物数量"/>
+										</div>
+										
+								</div>
+								
+								
+								
+								<div class="service_middle">			
+									<div class="sm_payment">
+										<span id="payment_way">
+											付款方式
+										</span>
+									</div>
+									<div class="sm_input1">			
+										 <div class="sm_input1">
+											<input type="text" id="sm_input_entity1" placeholder="现付"/>
+											<span id="sm_span1">
+												
+											</span>
+										</div>
+									</div>
+								</div>
+								
+								<div class="service_right">
+									<div class="sr_visit">
+										<span id="visit_time">
+											上门时间
+										</span>
+									</div>
+									<div class="sr_input1">			
+										 <div class="sr_input1">
+											 
+											 <div class="sr_inp1">
+											 	<input type="text" id="sr_input_entity1" />
+											 </div>
+											 
+											 <div class="sr_spa1">
+											 	<span id="sr_span1" class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+											 </div>	
+												
+										</div>
+									</div>
+								</div>	
+								<div class="reminder">
+									<span id="re_conter">
+										温馨提示：如您当前未选择保价服务，若在寄递过程中发生丢损，您最高可获得3倍运费赔偿
+									</span>
+								</div>	
+							  </div>
+													  
+							  <div class="service_info_mark">
+								<div class="mark_content">
+									<div class="mark">
+										<span id="mark_name">
+											备注
+										</span>
+									</div>
+									<div class="mark_textarea">
+										<input type="text" id="mt"name="cargoinfo.cargoMemo" placeholder="请填入备注信息"/>
+									</div>
+									
+								</div>
+								
+								<div class="mark_classify ">
+									<table class="table table-hover">
+									  <tr>
+									    <td class="active"><a>+ 请带胶带</a></td>
+									    <td class="info"><a>+ 请带纸箱</a></td>
+									    <td class="success"><a>+ 缺文件袋</a></td>
+									   
+									  </tr>
+									  <tr>
+										  <td class="active"><a>+ 请带面单</a></td>
+										  <td class="info"><a>+ 需爬楼梯</a></td>
+										  <td class="success"><a>+ 来前电话</a></td>
+										 
+									  </tr>
+									</table>
+								</div>
+								
+								
+							  </div>
+							  
+						</div>
+			</div>
+		</div>		
+	<!--运输产品+增值服务  1247*94-->		
+			<div class="send_sale">
+				<div class="ss_content">
+					<div class="ss_content_left">
+						<div class="sscl_transportation">
+							<span id="transportation_content">
+								运输产品：
+							</span>
+						</div>
+						<div class="sscl_appreciation">
+							<span id="appreciation_content">
+								增值服务：
+							</span>
+						</div>
+					</div>
+					<div class="ss_content_right">
+						     <div class="money">
+									 <div class="money_estimation">
+										<span id="estimate_money">
+										   估计金额	
+										</span>
+										<!-- <span id="money_minus">
+											-
+										</span> -->
+										<input type="text" name="cargoinfo.cargoFreight" disabled="disabled" id="mony"placeholder="--"/>
+										<span id="money_yuan">
+											元
+										</span>
+									 </div>
+								 <div class="money_butt">
+								 	<label>
+										<input type="checkbox"id="money_input" checked="checked"style="width: 16px;height: 16px;">
+										<span id="money_a">
+											<a href="#">我已理解并同意遵守服务条款</a>
+										</span>
+									</label>
+								 </div>
+								  <input type="submit"id="ding" value="下单">
+						     </div>
+							 
+					</div>
+					
+					
+					
+				</div>
+			</div>
+		  </form>
+		</div>	
+		<!-- 底部 -->
+		<div class="enddd">
+			<div class="enddd_ul">
+			
+			<ul class="nav nav-pills">
+			  <li style="font-size: 18px;"><a id="en" href="#">隐私政策</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">货物追踪</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">价格时效</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">营业网点</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">违纪查询</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">联系德邦</a></li>
+			</ul>
+		</div>
+		<div class="enddd_img">
+			<img src="img/f3.jpg"class="img1" >
+			<img src="img/f2.jpg"class="img2" >
+		</div>
+			
+		</div>	
+		
+	</body>
+	<script type="text/javascript" src="script/jquery.validate.min.js"></script>
+	<script type="text/javascript">
+				$(".list_dt").on("click",function () {
+					$('.list_dd').stop();
+					$(this).siblings("dt").removeAttr("id");
+					if($(this).attr("id")=="open"){
+						$(this).removeAttr("id").siblings("dd").slideUp();
+					}else{
+						$(this).attr("id","open").next().slideDown().siblings("dd").slideUp();
+					}
+				});
+				</script>
+</html>

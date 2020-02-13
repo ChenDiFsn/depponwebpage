@@ -1,0 +1,101 @@
+.bigdiv{
+	width: 1247px;
+	height: 400px;
+	/* background-color: cadetblue; */
+	margin-left: 247px;
+}
+.branch_select{
+	width: 1000px;
+	height: 40px;
+	
+    margin-left: 20px;
+}
+
+#bs_span{
+	font-size: 22px;
+	color: #003C8D;
+	margin-top: 20px;
+	line-height: 65px;
+}
+.bs_inp{
+	width: 330px;
+	height: 40px;
+	display: inline-block;
+}
+.bs_content{
+	text-align: center;
+	background-color: #f8f9fa;
+}
+#bi{
+	width: 330px;
+	height: 40px;
+ 	/* border: 0px; */
+ 	border-radius: 6px;
+	border: 2px solid gainsboros;
+	padding: 6px;
+}
+#ic{
+	width: 330px;
+	height: 40px;
+	/* border: 0px; */
+	border-radius: 6px;
+	border: 2px solid gainsboros;
+	padding: 6px;
+}
+.bs_name{
+	width: 130px;
+	height: 40px;display: inline-block;
+	
+}
+.bs_address{
+	width: 130px;
+	height: 40px;display: inline-block;
+	
+}
+.bs_way{
+	width: 130px;
+	height: 40px;display: inline-block;
+	
+}
+.import_con{
+	width:330px;
+	height: 40px;display: inline-block;
+	
+}
+.select_div{
+	width: 152px;
+	height: 40px;display: inline-block;
+	
+}
+/* 查询按钮 */
+#sd{
+	width: 138px;
+	height: 36px;
+	border-radius: 6px;
+	border: 0px;
+	background-color: #ffc107;
+}
+.paging{
+	text-align: center;
+}
+.search_result{
+	margin-top: 20px;
+	width: 1200px;
+	
+	margin-left: 20px;
+}
+#sr_span{
+	font-size: 21px;
+}
+#bn_span{
+	font-size: 16px;
+	 padding: 6px 10px;
+}
+#ba_span{
+	font-size: 16px;
+	 padding: 6px 10px;
+}
+#bw_span{
+	font-size: 16px;
+	 padding: 6px 10px;
+}

@@ -1,0 +1,47 @@
+/* .usheader{
+	width:1711px;
+	height: 100px;
+	background-color: #003C8D;
+} */
+a {
+    color: black;
+    text-decoration: none;
+}
+.menu-mright{
+	width: 1711px;
+	height: 600px;
+	position: absolute;
+}
+.menu{
+	width: 249px;
+	height: 600px;	
+	opacity: 0.9;
+	display: inline-block;
+}
+
+.xiala{
+	
+	width: 40px;
+	    height: 35px;
+	    margin-left: 175px;
+	    margin-top: -51px;
+		
+}
+p {
+    margin: 0 0 10px;
+    font-size:18px;
+   /* color:  white; */
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+	/* color: white; */
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    
+}

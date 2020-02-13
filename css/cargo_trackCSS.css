@@ -1,0 +1,155 @@
+
+*:not(input,textarea) {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+.all{
+	/* background-color: red; */
+	width: 1247px;
+	height: 710px;
+	margin-left: 238px;
+	    margin-top: 40px;
+}
+#cselect{
+	font-size: 24px;
+	color: #337ab7;
+	    margin-left: 32px;
+}
+.wp{
+	/* background-color: #007AFF; */
+	
+}
+.wp_waybill{
+	width: 110px;
+	height: 32px;
+	/* background-color: #ffffff; */
+	display: inline-block;
+	margin-left: 56px;
+	margin-top: 35px;
+}
+#ww{
+	font-size: 17px;
+}
+.wp_phone{
+	width: 146px;
+	height: 32px;
+	display: inline-block;
+}
+#wh{
+	font-size: 17px;
+}
+.import_web{
+	margin-top: 30px;
+}
+.line_fa{
+	width: 1247px;
+	height: 2px;
+	margin-left: 20px;
+	background-color: gainsboro;
+}
+.line_son {
+    background-color: #003C8D;
+    width: 80px;
+    height: 3px;
+    margin-left: 23px;
+}
+.iw_inp {
+    width: 978px;
+    height: 36px;
+    display: inline-block;
+    margin-left: 46px;
+	position: absolute;
+}
+#ii{
+	width: 975px;
+	height: 36px;
+	display: inline-block;
+	border:0;
+	border-radius: 8px;
+	border: 1px solid gainsboro;
+	padding: 10px;
+	z-index: 2px;
+}
+.iw_butt{
+	width: 210px;
+	height: 36px;
+	display: inline-block;
+	position: absolute;
+	/* background-color: coral; */
+}
+#dvu {
+    width: 198px;
+    height: 36px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: #ffc107;
+	/* z-index: 2px; */
+	margin-left: 1041px;
+}
+
+.now_select{
+	/* background-color: chartreuse; */
+	height: 100px;
+	width: 1247px;
+	margin-top: 20px;
+}
+.ns_select {
+    margin-top: 14px;
+    /* background-color: salmon; */
+    height: 80px;
+    width: 75px;
+    display: inline-block;
+    margin-left: 56px;
+	position: absolute;
+	margin-top: 68px;
+}
+#nselect{
+	/* background-color: lightcoral; */
+	height: 80px;
+	width: 56px;
+}
+
+.ns_delete{
+	position: absolute;
+	height: 80px;
+	width: 56px;
+	display: inline-block;
+	margin-top: 68px;
+	    margin-left: 130px;
+}
+/* 底部 */
+.endd{
+	margin-top: -20px;
+}
+ .enddd{
+	 height: 200px;
+	 background-color: #003c8d;
+	 border: 1px solid white;
+ }
+ .img1{
+	 margin-left: -620px;
+	 height: 50px;
+	 margin-top: 30px;
+ }
+ .img2{
+	 margin-left: 330px;
+		 width: 125px;
+ }
+ 
+ .nav>li.disabled>a {
+	 color:white;
+ }
+ .enddd_ul{
+	 height: 40px;
+	 width: 686px;
+	 background-color: #003c8d;
+	 margin-left: 147px;
+ }
+ 
+ .nav>li {
+	 margin-left: 52px;
+ }
+ .a1{
+	 font-size: 20px;
+ }

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>获得评估</title>
+		<script type="text/javascript"src="script/jquery-3.4.1.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<script type="text/javascript"src="bootstrap-3.3.7-dist/js/bootstrap.min.js">	
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/price_aging_selectCSS.css"/>
+		<link rel="stylesheet" type="text/css" href="css/personage_dataCSS.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myindexcss.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headcss.css"/>
+	</head>
+	<body>
+		<div class="upup">
+			<!-- 导航栏-->
+			<nav class="navbar navbar-default" style="background-color: #003c8d;color: #fff;">
+				
+			  <div class="container-fluid">
+			    
+			    <div class="navbar-header">
+				  <a class="navbar-brand" href="#"><img id="img" src="https://www.deppon.com/get/asset/ff80808168bf14850169c28025850098" ></a>
+			      <a class="navbar-brand" href="#">首页</a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <form class="navbar-form navbar-left">
+			        <div class="form-group">
+			          <input type="text" class="form-control" >
+			        </div>
+			        <button type="submit" class="btn btn-default">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+			      </form>
+			      <ul class="nav navbar-nav navbar-right">
+					 <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>  
+					 <li><a href="#">用户</a></li> 
+					 <li><a >|</a></li> 
+			        <li><a href="#">登出</a></li>
+			        
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			  </nav>
+		</div>
+	
+	<!-- 左边 下拉框-->
+	<div class="menu-mright">
+		
+		<div class="menu">	
+		<dl class="list_dl">
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我要寄件</p>
+					<div class="xiala">
+					   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+					</div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li" id="online"><a href="online_order.html">在线下单</a></li>
+		                <li class="list_li" id="branch"><a href="branch_select.html">网点查询</a></li>
+		                <li class="list_li" id="price"><a href="price_aging_select.html"></a>价格时效查询</li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我的订单</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li"id="all"><a href="all_orders.html">全部订单</a></li>
+		                <li class="list_li"id="cargo"><a href="cargo_track.html">货物追踪</a></li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>账户管理</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li" id="personage"><a href="personage_data.html">个人资料设置</a></li>
+		            </ul>
+		        </dd>
+		        
+		    </dl>
+			</div>	
+		</div>		
+			
+			<!-- 右边 -->
+		
+		<div class="conter">
+		<span id="header">
+			<h1>价格时效查询</h1>
+		</span>
+		<div class="header-con">
+			<span id="con-one">
+				国内
+			</span>
+			<span id="con-two">
+				跨境
+			</span>
+		</div>
+	    <div class="line-fath">
+	    	<div class="line-son">
+	    		
+	    	</div>
+	    </div>
+		
+		<div class="inp-rule">	
+	   <div class="inp">
+	<!-- 国内-->
+	   	    <div class="yuanji"id="divd">
+	   	    	<span id="yj">
+	   	    		*原寄地
+	   	    	</span>
+	   	    </div>
+			<input type="text" name="" id=""placeholder="请选择/输入城市"/>
+			<div class="mudi"id="divd">
+				<span id="md">
+					*目的地
+				</span>
+			</div>
+			<input type="text" name="" id="" placeholder="请选择/输入城市"/>
+			<div class="zhongli-tiji">
+				
+				<div class="zhongliang">
+						<div class="zhongliang-one"id="divd">
+							<span id="zl">
+								*重量
+							</span>
+						</div>
+						<input type="text" id="izl" placeholder="重量" />
+						<span id="kg">
+							
+						</span>
+			     </div>
+				
+				<div class="tiji">
+						<div class="tiji-one"id="divd">
+							<span id="tj">
+								*体积
+							</span>
+						</div>
+						<input type="text" id="itj"placeholder="体积" />
+						<span id="mmm">
+							
+						</span>
+				</div>
+				<div class="tiji-btn">
+					<button class="now" >体积换算</button>
+				</div>
+						
+				
+			</div>
+			
+			<div class="jijianshijian"id="divd">
+				<span id="jj">
+					*寄件时间
+				</span>
+			</div>
+			<input type="text" name="" id="" value="" />
+			
+			<button  class="bttn" aria-label="Left Align">
+			  <span class="glyphicon gly1 glyphicon-align-leftglyphicon glyphicon-calendar" aria-hidden="true"></span>
+			</button>
+			
+			<div class="gusuan"id="divd">
+				<button class="now">立即估算</button>
+				
+			</div>
+		<!-- 跨境-->
+		<!-- <div class="yuanji"id="divd">
+			<span id="yj">
+				*原寄地
+			</span>
+		</div>
+		<input type="text" name="" id="" value=""/>
+		<div class="mudi"id="divd">
+			<span id="md">
+				*目的地
+			</span>
+		</div>
+		<input type="text" name="" id="" value=""/>
+		<div class="zhongli-tiji">
+			<div class="zhongliang"id="divd">
+				<span id="zl">
+					*重量
+				</span>
+			</div>
+			<input type="text" id="" value="" />
+			<span id="kg">
+				
+			</span>
+			
+			<div class="tiji"id="divd">
+				<span id="tj">
+					*体积
+				</span>
+			</div>
+			<input type="text" id="" value="" />
+			<span id="mmm">
+				
+			</span>
+			<button class="btn btn-default" type="submit">体积换算</button>
+		</div>
+		<div class="gusuan"id="divd">
+			<button class="btn btn-default" type="submit">立即估算</button>
+		</div>	 -->
+			
+	   </div>
+	   
+	   
+	   
+	   <div class="rule">
+	   	   <div class="ru-one">
+	   	   	<h4>运费计算基于以下计费规则：</h4>
+	   	   </div>
+		   <div class="media">
+		     <div class="media-body">
+		      <div class="ru-two">
+		      	 1、快递（标准快递、特准快件、大件快递3.60）托寄物的计费重量取体积重量与实际重量两者之间的较大值，体积重量的计算方法为：体积重量=长(CM)×宽(CM)×高(CM)÷6000 
+		      </div>
+		      <div class="ru-three">
+		      	 2、零担（精准卡航、精准汽运等）体积计费和重量计费两者取大 
+		      </div>
+		      <div class="ru-four">
+		      	 3、快递产品计费重量小数点进位处理方式：续重以1KG为计重单位，不足0.5kg，按0.5kg计，足0.5kg，四舍五入取整数 
+		      </div>
+		      <div class="ru-five">
+		      	 4、货物（含包装）如果单边长超过1.6米，或三边和超过2米，需加收最低每件20元的超长附加费用，具体收费额度以快递员上门确认超长费为准。 
+		      </div>
+		      <div class="ru-six">
+		      			   5、以上规则可能因服务（产品）或部分地区，合伙人有加时或者单独报价的可能因部分乡镇地区不同而有所差异；具体收费信息可咨询
+		      			   <a href="#">当地营业部</a>
+		      			   或收派员
+		      	  
+		      </div>
+		     </div>
+		   </div>
+	   </div>
+	</div>
+</div>
+	<!-- 底部 -->
+		<div class="enddd">
+			<div class="enddd_ul">
+			
+			<ul class="nav nav-pills">
+			  <li style="font-size: 18px;"><a id="en" href="#">隐私政策</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">货物追踪</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">价格时效</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">营业网点</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">违纪查询</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">联系德邦</a></li>
+			</ul>
+		</div>
+		<div class="enddd_img">
+			<img src="img/f3.jpg"class="img1" >
+			<img src="img/f2.jpg"class="img2" >
+		</div>
+			
+		</div>	
+	</body>
+	<script type="text/javascript" src="script/jquery.validate.min.js"></script>
+	<script type="text/javascript">
+				$(".list_dt").on("click",function () {
+					$('.list_dd').stop();
+					$(this).siblings("dt").removeAttr("id");
+					if($(this).attr("id")=="open"){
+						$(this).removeAttr("id").siblings("dd").slideUp();
+					}else{
+						$(this).attr("id","open").next().slideDown().siblings("dd").slideUp();
+					}
+				});
+				</script>
+</html>

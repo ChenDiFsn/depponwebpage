@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript"src="script/jquery-3.4.1.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<script type="text/javascript"src="bootstrap-3.3.7-dist/js/bootstrap.min.js">	
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/all_ordersCSS.css"/>
+		
+		<!-- 时间选择器样式表 -->
+				<link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+		<!-- 时间选择器前置脚本 -->
+				<script src="https://cdn.bootcss.com/moment.js/2.22.1/moment-with-locales.min.js"></script>
+				
+		<!-- 时间选择器核心脚本 -->
+		<script src="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/personage_dataCSS.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myindexcss.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headcss.css"/>
+		<script type="text/javascript"src="script/cdatatime.js">
+			
+		</script>
+	</head>
+	<body>
+	<div class="upup">
+		<!-- 导航栏-->
+		<nav class="navbar navbar-default" style="background-color: #003c8d;color: #fff;">
+			
+		  <div class="container-fluid">
+		    
+		    <div class="navbar-header">
+			  <a class="navbar-brand" href="#"><img id="img" src="https://www.deppon.com/get/asset/ff80808168bf14850169c28025850098" ></a>
+		      <a class="navbar-brand" href="#">首页</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <form class="navbar-form navbar-left">
+		        <div class="form-group">
+		          <input type="text" class="form-control" >
+		        </div>
+		        <button type="submit" class="btn btn-default">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</button>
+		      </form>
+		      <ul class="nav navbar-nav navbar-right">
+				 <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>  
+				 <li><a href="#">用户</a></li> 
+				 <li><a >|</a></li> 
+		        <li><a href="#">登出</a></li>
+		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		  </nav>
+	</div>
+		
+<!-- 左边 下拉框-->
+	<div class="menu-mright">
+		
+		<div class="menu">	
+		<dl class="list_dl">
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我要寄件</p>
+					<div class="xiala">
+					   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+					</div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li" id="online"><a href="online_order.html">在线下单</a></li>
+		                <li class="list_li" id="branch"><a href="branch_select.html">网点查询</a></li>
+		                <li class="list_li" id="price"><a href="price_aging_select.html"></a>价格时效查询</li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我的订单</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li"id="all"><a href="all_orders.html">全部订单</a></li>
+		                <li class="list_li"id="cargo"><a href="cargo_track.html">货物追踪</a></li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>账户管理</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li" id="personage"><a href="personage_data.html">个人资料设置</a></li>
+		            </ul>
+		        </dd>
+		        
+		    </dl>
+			</div>	
+		</div>			
+		
+		
+		
+		
+		
+<!-- 右边 -->
+		<div class="all_orders">
+			
+			<div class="ao_header">
+				<span id="header">
+					全部订单
+				</span>
+			</div>
+		
+			<div class="ao_up">
+				<div class="au_left">
+					<div class="left_jc">
+						<input type="radio" id="lj"style="width: 32px;height: 19px;"/>
+						 <span id="jc_span"class="span_web">
+							寄出运单
+						 </span>
+					 </div>
+					 <div class="left_sd">
+						 <input type="radio" id="ls"style="width: 32px;height: 19px;"/>
+						  <span id="sd_span"class="span_web">
+							收到运单
+						  </span>
+					  </div>
+				</div>
+				<div class="au_midd">
+					<!-- <div class="midd_made">
+						<span id="mm"style="width: 60px;height: 18px;"class="span_web">
+							创建时间
+						</span>
+					</div>
+					
+					<div class="midd_start">
+						
+						<div class="ms_web">
+							<input type="text"id="ms"  placeholder="请选择开始时间"/>
+							
+						</div>
+						<div class="ms_calendar">
+							<button type="button" class="btn btn-default btn-lg">
+							<span id="ms_span"class="glyphicon glyphicon-calendar calendar" aria-hidden="true">
+							</span>
+							</button>
+						</div>
+						
+					</div>
+					<div class="midd_to"style="margin-top: 20px">
+						
+						 <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+					    
+					</div>
+					<div class="midd_end">
+						<div class="me_web">
+							<input type="text" id="me" placeholder="请选择结束时间" />
+						</div>
+						
+						<div class="me_calendar">
+							<button type="button" class="btn btn-default btn-lg">
+							<span id="me_span"class="glyphicon glyphicon-calendar calendar" aria-hidden="true">
+								
+							</span>
+							</button>
+						</div>
+						
+					</div> -->
+					<div class="row">
+						
+					    <div class='col-sm-6'>
+					        <div class="form-group ">
+					            <label>选择开始时间：</label>
+					            <!--指定 date标记-->
+					            <div class='input-group date' id='datetimepicker1'>
+					                <input type='text' class="form-control fc" style="
+									color: black;
+									background-color: white;
+									border: 1px solid ghostwhite;
+									border-radius: 2px;
+									padding: 15px;
+									font-size: 17px;"/>
+					                <span class="input-group-addon  iga"style="background-color: #ffc107">
+					                    <span class="glyphicon glyphicon-calendar  gc"style="background-color: #ffc107;color: white"></span>
+					                </span>
+					            </div>
+					        </div>
+					    </div>
+						
+					    <div class='col-sm-6'>
+					        <div class="form-group">
+					            <label>选择结束时间：</label>
+					            <!--指定 date标记-->
+					            <div class='input-group date' id='datetimepicker2'>
+					                <input type='text' class="form-control fc"
+									 style="color: black;
+											background-color: white;
+											border: 1px solid ghostwhite;
+											border-radius: 2px;
+											padding: 15px;
+											font-size: 17px;"/>
+					                <span class="input-group-addon iga"style="background-color: #ffc107">
+					                    <span class="glyphicon glyphicon-calendar gc"style="background-color: #ffc107;color: white"></span>
+					                </span>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+				</div>
+				
+				<div class="au_right">
+					<div class="right_now">
+						<span id="rn"class="span_web">
+							最近
+						</span>
+					</div>
+					<div class="dropdown dd">
+					  <button class="btn dropdown-toggle button-week" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					    一星期
+					    <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					    <li><a href="#">一星期</a></li>
+					    <li><a href="#">一个月</a></li>
+					    <li><a href="#">三个月</a></li>    
+					  </ul>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			
+			
+			
+	<!-- 板块二 -->		
+			<div class="ao_content">
+				 <div class="odd">
+				 	单号
+				 </div>
+				 <div class="send">
+				 	寄
+				 </div>
+				 <div class="collect">
+				 	收
+				 </div>
+				 <div class="state">
+				 	物流状态
+				 </div>
+				 <div class="weight">
+				 	重量
+				 </div>
+				 <div class="little">
+				 	件数
+				 </div>
+				 <div class="time">
+				 	下单日期
+				 </div>
+			</div>
+			
+			<div class="ao_radio">
+				<div class="ar_input">
+					<input type="checkbox" checked="checked"style="width: 16px;height: 16px;">
+				</div>
+				<div class="all_choose">
+					全选
+				</div>
+				<div class="model">
+					
+				</div>
+				<div class="print">
+					<span id="print_span">
+						打印
+					</span>
+				</div>
+				<div class="derive">
+					<span id="derive_span">
+						导出Excel
+					</span>
+				</div>
+				
+			</div>
+		<!-- 板块三	 -->
+			<div class="ao_paging">
+				<nav aria-label="Page navigation">
+				  <ul class="pagination">
+				    <li>
+				      <a href="#" aria-label="Previous">
+				        <span aria-hidden="true">&laquo;</span>
+				      </a>
+				    </li>
+				    <li><a href="#">1</a></li>
+				    <li>
+				      <a href="#" aria-label="Next">
+				        <span aria-hidden="true">&raquo;</span>
+				      </a>
+				    </li>
+				  </ul>
+				</nav>
+			</div>
+		</div>
+	<!-- 底部 -->
+		<div class="enddd">
+			<div class="enddd_ul">
+			
+			<ul class="nav nav-pills">
+			  <li style="font-size: 18px;"><a id="en" href="#">隐私政策</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">货物追踪</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">价格时效</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">营业网点</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">违纪查询</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">联系德邦</a></li>
+			</ul>
+		</div>
+		<div class="enddd_img">
+			<img src="img/f3.jpg"class="img1" >
+			<img src="img/f2.jpg"class="img2" >
+		</div>
+			
+		</div>	
+	</body>
+	<script type="text/javascript" src="script/jquery.validate.min.js"></script>
+	<script type="text/javascript">
+				$(".list_dt").on("click",function () {
+					$('.list_dd').stop();
+					$(this).siblings("dt").removeAttr("id");
+					if($(this).attr("id")=="open"){
+						$(this).removeAttr("id").siblings("dd").slideUp();
+					}else{
+						$(this).attr("id","open").next().slideDown().siblings("dd").slideUp();
+					}
+				});
+				</script>
+</html>

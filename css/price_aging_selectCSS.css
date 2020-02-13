@@ -1,0 +1,159 @@
+.conter {
+    width: 1081px;
+    height: 705px;
+    margin-left: 264px;
+	margin-top: 45px;
+}
+#header{
+	color: #003C8D;
+}
+.header-con{
+	margin-top: 40px;
+}
+#con-one{
+	font-size: 24px;
+}
+#con-two{
+	font-size: 24px;
+	margin-left: 20px;
+}
+
+
+.line-fath{
+	    height: 3px;
+	    width: 1074px;
+	background-color: lavender;
+	margin-top: 20px;
+}
+.line-son{
+	width: 54px;
+	height: 3px;
+	background-color:#003c8d ;
+}
+#yj{
+	    height: 75px;
+	    line-height: 55px;
+}
+#jj,#md{
+	height: 55px;
+	    line-height: 60px;
+}
+#zl,#tj{
+	height: 55px;
+	    line-height: 60px;
+}
+
+.inp-rule{
+	width: 1080px;
+	    height: 405px;
+	position: absolute;
+	
+}
+
+.inp{
+	    margin-top: 20px;
+	width: 510px;
+	height: 402px;
+	position: relative;
+	float: left;
+	border-right-style: solid;
+	border-width: 0.1cm;
+	border-right-color:lavender ;
+}
+
+input{
+	width: 425px;
+	    height: 40px;
+		border-radius: 4px 4px 4px 4px;
+		border:0;   /*去除输入框阴影*/
+		border: 2px solid gainsboro;
+		padding: 8px;
+}
+#izl{
+	width: 108px;
+	height: 40px;
+}
+#itj{
+	width: 108px;
+	height: 40px;
+}
+
+.now{
+	background-color:#fbd200;
+	border: 0;
+	width: 92px;
+	    height: 40px;
+		border-radius: 6px;
+}
+
+.bttn {
+    width: 40px;
+    height: 40px;
+    margin-left: -44px;
+    background-color: #fbd200;
+    border: 0;
+    border-radius: 4px;
+}
+.gly1{
+	    color: white;
+	    font-size: 27px;
+	    margin-left: -5px;
+		background-color:#fbd200;
+		border: 0;
+}
+
+#divd{
+	width: 395px;
+	    height: 45px;
+}
+.zhongli-tiji{
+	
+	width: 444px;
+	height: 69px;
+}
+
+.zhongliang{
+	display: inline-block;
+	position: relative;
+	width: 143px;
+	height: 24px;
+}
+.tiji{
+	position: relative;
+	display: inline-block;
+	width: 143px;
+	height: 24px;
+}
+.tiji-btn{
+	display: inline-block;
+	width: 72px;
+	height: 40px;
+}
+
+.gusuan{
+	text-align: center;
+	margin-top: 35px;
+}
+.gusuan button{
+	width: 125px;
+	    height: 45px;
+		font-size: 17px;
+}
+
+
+
+
+
+
+.rule{
+	
+	width: 565px;
+	height: 402px;
+	position: relative;
+	float: right;
+	margin-top: 20px;
+}
+.media-body div{
+	   width: 550px;
+	       height: 72px;
+			}

@@ -1,0 +1,163 @@
+
+.log{
+	/* background-image: url(backgimg/b8.jpg); */
+	margin-top: 123px;
+	width: 526px;
+	height: 446px;
+	border: 1px solid darkgray;
+	margin-left: 1035px;
+	border-radius: 5px 5px 5px 5px;
+}
+.log img{
+	width: 100%;
+	height: 800px;
+}
+.header{
+	width: 1727px;
+	height: 60px;
+	background-color: #003C8D;
+}
+
+.user-login{
+	display: inline-block;
+	width: 101px;
+	height: 45px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 90px;
+}
+.phone-login{
+	display: inline-block;
+	width: 208px;
+	height: 45px;
+	text-align: center;
+	margin-top: 10px;
+	
+
+}
+
+.username{
+	width: 475px;
+	height: 72px;
+	
+}
+.password{
+	width: 475px;
+	height: 72px;
+	
+}
+#inp1{
+	width: 400px;
+    height: 45px;
+	border-radius: 5px 5px 5px 5px;
+	margin-left: -7px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+#inp2{
+	width: 400px;
+    height: 45px;
+	border-radius: 5px 5px 5px 5px;
+	margin-left: -7px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+
+
+.sub{
+	background-color:#fbd200 ;
+	width: 351px;
+	height: 40px;
+	border:0;   /*去除输入框阴影*/
+	
+	padding: 8px;
+}
+.checkbox{
+	
+	display: inline-block;
+	position: relative;
+	margin-left: -3px;
+}
+.forgetpw{
+	
+	display: inline-block;
+	position: right;
+	margin-left: 151px;
+}
+#pw{
+	color: #003C8D;
+}
+
+.denglu{
+	
+	width: 291px;
+	height: 60px;
+	margin-left: 84px;
+	
+}
+
+.username-password{
+	text-align: center;	
+	margin: 0px auto;
+}
+.checkbox-forget{
+	text-align: center;
+	height: 60px;
+	
+}
+
+
+
+.line-fath{
+	width: 528px;
+	height: 3px;
+	
+}
+.line-sonn{
+	width: 100px;
+	height: 3px;
+	margin-left: 95px;
+	background-color: #003C8D;
+}
+
+#uln{
+	font-size: 24px;
+	color: #000000;
+}
+#pln{
+	font-size: 24px;
+	color: gray;
+}
+.glyphicon{
+	font-size: 22px;
+	/* background-color: darkgray; */
+	width: 36px;
+	    height: 33px;
+	    line-height: 36px;
+	    margin-left: 20px;
+	    margin-top: 15px;
+}
+.enjoy{
+	width: 351px;
+	height: 35px;
+	margin-left: 85px;
+	color: #003C8D;
+	border:2px solid #003C8D;
+}
+
+.login-two{
+	
+	    margin-top: 22px;
+}
+.weixin-login{
+	
+	display: inline-block;
+	margin-left: 115px;
+}
+.debang-login{
+	
+	display: inline-block;
+	margin-left: 81px;
+}

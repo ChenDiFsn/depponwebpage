@@ -1,0 +1,566 @@
+.menu-right{
+	width: 1345px;
+	height: 1218px;
+	/* background-color: #F2DEDE; */
+	display: inline-block;
+	margin-left: 213px;
+}
+.mright_up{
+	width: 1188px;
+	height: 64px;
+	margin-left: 35px;
+	background-color:#f8f9fa;
+}
+.vertical_moulding{
+	width: 2px;
+	height: 1035px;
+	background-color: gainsboro;
+	display: inline-block;
+	position: absolute;
+	margin-left: 32px;
+}
+.vm_son1{
+	    margin-left: -12px;
+	margin-top: 10px;
+	width:25px ;
+	height:25px;
+	background-color: #003C8D;
+	border-radius: 50% 50% ;
+	text-align: center;
+	border: 2px solid white;
+}
+.vm_son2{
+	margin-top: 350px;
+	margin-left: -12px;
+	width:25px ;
+	height:25px;
+	background-color: #003C8D;
+	border-radius: 50% 50% ;
+	text-align: center;
+	border: 2px solid white;
+}
+.vm_son3{
+	margin-top: 100px;
+	    margin-left: -12px;
+	width:25px ;
+	height:25px;
+	background-color:  #003C8D;
+	border-radius: 50% 50% ;
+	text-align: center;
+	border: 2px solid white;
+	}
+.vm_son4{
+    margin-top: 109px;
+	margin-left: -12px;
+	width:25px ;
+	height:25px;
+	background-color:  #003C8D;
+	border-radius: 50% 50% ;text-align: center;
+	border: 2px solid white;
+}
+
+.big_import{
+	
+	width: 1160px;
+	height: 1005px;
+	display: inline-block;
+	margin-left:65px;
+}
+.mright_down{
+	margin-left: 35px;
+  width: 1302px;
+  height: 1045px;
+  
+}
+#ul_span{
+	    color: #003C8D;
+	    font-size: 27px;
+	    line-height: 57px;
+}
+
+.ss{
+	font-size: 20px;
+	 line-height: 42px;
+	 color: #003C8D;
+	 
+}
+/* 收发信息 */
+.sf_info{
+	
+	width: 1122px;
+	height: 381px;
+	
+}
+.sf_info_content{
+    width: 1160px;
+	height: 35px;
+	
+
+}
+.js_user{
+	background-color: #f8f9fa;
+	width: 547px;
+	height: 286px;
+	display: inline-block;
+	margin-top: 20px;
+}
+.jj_inp1{
+	display: inline-block;
+	width: 314px;
+	height: 40px;
+	position: absolute;
+}
+.jj_input2{
+	position: relative;
+}
+.jj_input3{
+	position: relative;
+}
+.jj_a1{
+	display: inline-block;
+	width: 114px;
+	height:24px;
+	
+}
+.jj_username{
+	width: 157px;
+	height: 26px;
+	position: relative;
+	margin-top: 20px;
+}
+#jj_input_entity1{
+	width: 260px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid gainsboro;
+	padding: 8px;
+}
+#jj_input_entity2{
+	width: 260px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid gainsboro;
+	padding: 8px;
+}
+#jj_input_entity3{
+	width: 260px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid gainsboro;
+	padding: 8px;
+}
+#jj_input_entity4{
+	width: 260px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid gainsboro;
+	padding: 8px;
+}
+.ji_inp1{
+	display: inline-block;
+}
+.ji_spa1{
+	display: inline-block;
+	    text-align: center;
+	    margin-left: -44px;
+	    height: 40px;
+	    width: 40px;
+	    line-height: 39px;
+	    color: white;
+	    border-radius: 4px;
+}
+.jj_a2{
+	
+	height: 50px;
+	margin-top: 20px;
+}
+/* 收件人信息 */
+.sj_user{
+	background-color: #f8f9fa;
+	width: 547px;
+	height: 286px;
+	display: inline-block;
+}
+.si_inp1{
+	display: inline-block;
+}
+.si_spa1{
+	display: inline-block;
+	    text-align: center;
+	    margin-left: -44px;
+	    height: 40px;
+	    
+	    background-color: #ffc107;
+	    width: 40px;
+	    line-height: 39px;
+	    color: white;
+	    border-radius: 4px;
+}
+#sj_input_entity1,#sj_input_entity2,
+#sj_input_entity3,#sj_input_entity4{
+	width: 260px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid gainsboro;
+	padding: 8px;
+}
+.sj_input{
+	/* background-color: blueviolet; */
+}
+.sj_input1{
+	display: inline-block;
+	position: absolute;
+	width: 314px;
+	height: 40px;
+}
+.sj_a1{
+	display: inline-block;
+	width: 114px;
+	height:24px;
+	
+}
+.sj_username{
+	width: 157px;
+	height: 26px;
+	position: relative;
+	margin-top: 20px;
+}
+.sj_input2{
+	position: relative;
+}
+.sj_input3{
+	position: relative;
+}
+.sj_a2{
+	
+	height: 50px;
+	margin-top: 20px;
+}
+
+/* 寄托物信息 */
+
+.thing_name_up_left{
+	width: 157px;
+	height: 26px;
+	display: inline-block;
+	position: relative;
+}
+.thing_name_up_right{
+	width: 157px;
+	height: 26px;
+	display: inline-block;
+	/* background-color: #007AFF; */
+}
+.thing_name_up_middle{
+	width: 157px;
+	height: 26px;
+	display: inline-block;
+	position: relative;
+}
+.thing_name_up_left{
+	width: 157px;
+	height: 26px;
+	display: inline-block;
+	position: relative;
+}
+.thing_name_up_right{
+	width: 157px;
+	height: 26px;
+	display: inline-block;
+	position: relative;
+}
+.thing_name_down{
+	width: 277px;
+	height: 40px;
+	position: relative;
+}
+#tnd{
+	width: 277px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid gainsboro;
+	padding: 8px;
+}
+.jt_info{
+	
+	width: 1122px;
+	height: 125px;
+}
+.jt_info_content{
+	width: 1160px;
+	height: 35px;
+	/* background-color: #007AFF; */
+
+}
+.thing_name{
+	position: absolute;
+	width: 347px;
+	height: 69px;
+	display: inline-block;
+}
+.thing_weight{
+	
+	width: 347px;margin-left: 403px;
+	height: 69px;display: inline-block;
+}
+.thing_volume{
+	
+	width: 347px;
+	height: 69px;display: inline-block;
+}
+/* 选择产品服务 */
+.choose_service{
+	 background-color: #f8f9fa;
+	width: 1122px;
+	height: 132px;
+	}
+	.choose_service_content{
+		width: 1160px;
+		height: 35px;
+		/* background-color: #007AFF; */
+	}
+	.thing_time_sale{
+		width: 1160px;
+		height: 45px;
+		
+	}
+	.tts_name{
+		width:377px;
+		text-align: center;
+		height:32px;
+		display: inline-block;
+		
+		
+	}
+	.tts_time{
+		width:305px;
+		text-align: center;
+		height:32px;
+		display: inline-block;
+		
+	}
+	.tts_sale{
+		width:407px;
+		text-align: center;
+		height:32px;
+		display: inline-block;
+		
+	}
+	#tts_name_left{
+		width:424px;
+		height:32px;
+		
+		color: #003C8D;
+		font-size: 17px;
+	}
+	.write_info{
+		width: 1160px;
+		height: 52px;
+		
+		text-align: center;
+	}
+	#wf_conter{
+		font-size: 20px;
+	}
+/* 服务信息 */
+.service_info{
+	
+	width: 1122px;
+	height: 340px;
+}	
+.service_info_content{
+	width: 1160px;
+	height: 35px;
+	
+}
+.service_info_up{
+	width:1160px;
+	height: 137px;
+	
+}
+
+.sl_cargo{
+	
+	width: 347px;
+	height: 30px;
+	display: inline-block;
+}
+.sm_payment{
+	width: 337px;
+	height: 30px;
+	
+	display: inline-block;
+}
+
+.sr_visit{
+	width: 337px;
+	height: 30px;
+	
+	display: inline-block;
+}
+#sl_input_entity1{
+	width: 277px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid gainsboro;
+	padding: 8px;
+}
+#sm_input_entity1{
+	width: 277px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid gainsboro;
+	padding: 8px;
+}
+#sr_input_entity1{
+	width: 277px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid gainsboro;
+	padding: 8px;
+}
+.reminder{
+	/* background-color: #007AFF; */
+}
+.service_left{
+	width: 348px;
+	height: 85px;
+	
+	display: inline-block;
+}
+.service_middle{
+	width: 337px;
+	height: 85px;
+	
+	display: inline-block;
+}
+.service_right{
+	width: 337px;
+	height:85px;
+	
+    display: inline-block;
+}
+
+.mark{
+	width: 680px;
+	height: 30px;
+	
+}
+.mark, mark {
+    padding: .2em;
+    /* background-color: #fcf8e3; */
+}
+.mark_textarea{
+	width: 680px;
+	height: 60px;
+	
+}
+#mt{
+	width: 680px;
+	height: 60px;
+	border-radius: 8px;
+	border: 1px solid gainsboro;
+	padding: 8px;
+}
+.service_info_mark {
+    width: 1120px;
+    height: 157px;
+    margin-top: 92px;
+}
+
+.mark_classify {
+    
+    width: 400px;
+    height: 72px;
+    display: inline-block;
+    margin-top: 15px;
+    position: absolute;
+}
+.mark_content {
+    
+    width: 714px;
+    height: 117px;
+    display: inline-block;
+}
+.mark_classify a{
+	text-decoration : none;
+}
+.sr_inp1{
+	display: inline-block;
+}
+.sr_spa1{
+	display: inline-block;
+	    text-align: center;
+	    margin-left: -44px;
+	    height: 40px;
+	    
+	    background-color: #ffc107;
+	    width: 40px;
+	    line-height: 39px;
+	    color: white;
+	    border-radius: 4px;
+}
+
+/* 运输产品+增值服务  */
+.send_sale{
+	background-color:#003C8D;
+	width: 1160px;
+	height: 94px;
+	margin-left: 58px;
+}	
+
+#transportation_content,
+#appreciation_content{
+	color: white;
+	font-size: 15px;
+}
+#money_minus{
+	color: #ffc107;  
+	    padding: 26px;
+	    font-size: 30px;
+}
+#estimate_money,#money_yuan{
+	color: white;
+	font-size: 20px;
+}
+#money_a{
+	color: white;
+}
+.ss_content{
+	width: 1180px;
+	height: 93px;
+	
+	margin-left: 27px;
+}
+.ss_content_left{
+	display: inline-block;
+	width: 735px;
+	height: 42px;
+}
+.ss_content_right{
+	width: 450spx;
+	height:63px;
+	
+	display: inline-block;
+	
+}
+.money_butt{
+	display: inline-block;
+		
+}
+#mony{
+	padding: 6px;
+	width: 50px;
+	height: 30px;
+	border: 0px;
+	background-color:rgba(0,0,0,0);
+	font-size: 34px;
+	color: #FFFFFF;
+}
+#ding{
+	width: 172px;
+	height:36px;
+	border-radius: 6px;
+	border: 0px;
+	background-color: #ffc107;
+}

@@ -1,0 +1,175 @@
+
+.log{
+	/* background-image: url(backgimg/b8.jpg); */
+	margin-top: 123px;
+	width: 526px;
+	height: 446px;
+	border: 1px solid darkgray;
+	margin-left: 1035px;
+	border-radius: 5px 5px 5px 5px;
+}
+.log img{
+	width: 100%;
+	height: 800px;
+}
+.header{
+	width: 1727px;
+	height: 60px;
+	background-color: #003C8D;
+}
+
+.user-login{
+	display: inline-block;
+	width: 120px;
+	height: 45px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 65px;
+}
+.phone-login{
+	display: inline-block;
+	width: 208px;
+	height: 45px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 127px;
+
+}
+
+.username{
+	width: 475px;
+	height: 72px;
+	
+}
+.password{
+	width: 475px;
+	height: 72px;
+	
+}
+#inp1,#inp3{
+	width: 400px;
+	height: 45px;
+	border-radius: 5px 5px 5px 5px;
+	margin-left: -7px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+#inp2{
+	width:204px;
+	height: 40px;
+	border:0;   /*去除输入框阴影*/
+	border: 2px solid gainsboro;
+	padding: 8px;
+}
+.enjoy{
+	width: 121px;
+	height: 41px;
+	margin-left:65px;
+	color: #003C8D;
+	border:2px solid #003C8D;
+}
+.emails{
+	margin-left: -56px;
+}
+.sub{
+	background-color:#fbd200 ;
+	width: 136px;
+	height: 36px;
+	border-radius:4px 4px 4px 4px ;
+	border:0;   /*去除输入框阴影*/
+	
+	padding: 8px;
+}
+.checkbox{
+	
+	display: inline-block;
+	position: relative;
+	margin-left: -3px;
+}
+.forgetpw{
+	
+	display: inline-block;
+	position: right;
+	margin-left: 151px;
+}
+#pw{
+	color: #003C8D;
+}
+.login-reg{
+	width: 524px;
+	height: 48px;
+	position: absolute;
+	
+}
+.login-login{
+	display: inline-block;
+	position: relative;
+	margin-left: 45px;
+	
+}
+.denglu{	
+	width: 136px;
+	    height: 35px;
+	    margin-left: 156px;
+	    display: inline-block;
+	    position: relative;
+	    
+}
+
+.username-password{
+	text-align: center;	
+	margin: 0px auto;
+}
+.checkbox-forget{
+	text-align: center;
+	height: 60px;
+	margin-top: 24px;
+	margin-left: -174px;
+}
+
+
+
+.line-fath{
+	width: 528px;
+	height: 3px;
+	
+}
+.line-sonn{
+	width: 133px;
+	    height: 3px;
+	    margin-left: 60px;
+	background-color: #003C8D;
+}
+
+#uln{
+	font-size: 24px;
+	color: #000000;
+}
+#pln{
+	font-size: 15px;
+	color: gray;
+}
+#read{
+	font-size: 17px;
+}
+.glyphicon{
+	font-size: 22px;
+	/* background-color: darkgray; */
+	width: 36px;
+	    height: 33px;
+	    line-height: 75px;
+	    margin-left: 20px;
+	    margin-top: 15px;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: -26px;
+    width: 25px;
+    height: 14px;
+	}
+input[type=checkbox], input[type=radio] {
+    margin: 3px 0 0;
+	}	

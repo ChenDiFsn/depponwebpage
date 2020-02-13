@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript"src="script/jquery-3.4.1.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<script type="text/javascript"src="bootstrap-3.3.7-dist/js/bootstrap.min.js">	
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/branch_selectCSS.css"/>
+		<link rel="stylesheet" type="text/css" href="css/personage_dataCSS.css"/>
+		<link rel="stylesheet" type="text/css" href="css/headcss.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myindexcss.css"/>
+	</head>
+	<body>
+		<div class="upup">
+			<!-- 导航栏-->
+			<nav class="navbar navbar-default" style="background-color: #003c8d;color: #fff;">
+				
+			  <div class="container-fluid">
+			    
+			    <div class="navbar-header">
+				  <a class="navbar-brand" href="#"><img id="img" src="https://www.deppon.com/get/asset/ff80808168bf14850169c28025850098" ></a>
+			      <a class="navbar-brand" href="#">首页</a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <form class="navbar-form navbar-left">
+			        <div class="form-group">
+			          <input type="text" class="form-control" >
+			        </div>
+			        <button type="submit" class="btn btn-default">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+			      </form>
+			      <ul class="nav navbar-nav navbar-right">
+					 <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>  
+					 <li><a href="#">用户</a></li> 
+					 <li><a >|</a></li> 
+			        <li><a href="#">登出</a></li>
+			        
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			  </nav>
+		</div>
+		
+	<!-- 左边 下拉框-->
+	<div class="menu-mright">
+		
+		<div class="menu">	
+		<dl class="list_dl">
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我要寄件</p>
+					<div class="xiala">
+					   <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+					</div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li" id="online"><a href="online_order.html">在线下单</a></li>
+		                <li class="list_li" id="branch"><a href="branch_select.html">网点查询</a></li>
+		                <li class="list_li" id="price">价格时效查询</li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>我的订单</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li"id="all">全部订单</li>
+		                <li class="list_li"id="cargo">货物追踪</li>
+		            </ul>
+		        </dd>
+		        <dt class="list_dt">
+		            <span class="_after"></span>
+		            <p>账户管理</p>
+		            <div class="xiala">
+		               <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>   	
+		            </div>
+		        </dt>
+		        <dd class="list_dd">
+		            <ul>
+		                <li class="list_li" id="personage">个人资料设置</li>
+		            </ul>
+		        </dd>
+		        
+		    </dl>
+			</div>	
+		</div>
+     <!-- 右边 -->
+		<div class="bigdiv">
+			<div class="branch_select">
+				<span id="bs_span">
+					网点查询
+				</span>
+			</div>	
+			<hr />
+			<div class="bs_content">
+				<div class="bs_inp">
+					<input type="text" id="bi"placeholder="请选择/输入城市"/>
+				</div>
+				<div class="bs_name">
+					<input type="radio"  id="bn"style="width: 24px;height: 25px;" />
+					<span id="bn_span">
+						网点名称
+					</span>
+				</div>
+				<div class="bs_address">
+					<input type="radio"  id="ba"style="width: 24px;height: 25px;" />
+					<span id="ba_span">
+						网点地址
+					</span>
+				</div>
+				<div class="bs_way">
+					<input type="radio"  id="bw"style="width: 24px;height: 25px;" />
+					<span id="bw_span">
+						联系方式
+					</span>
+				</div>
+				<div class="import_con">
+					<input type="text" id="ic"placeholder="请输入关键字"/>
+				</div>
+				<div class="select_div">
+					<input type="submit" id="sd"value="查询"/>
+				</div>
+			
+			</div>
+		<!-- 查询结果 -->	
+			<div class="search_result">
+				<div class="sr">
+					<span id="sr_span">
+						查询结果
+					</span>
+				</div>
+				<div class="table-responsive">
+				  <table class="table">
+					  <tr>
+					    <td class="">网点名称</td>
+					    <td class="">网点地址</td>
+					    <td class="">联系方式</td>
+					    <td class="">业务范围</td>
+					    
+					  </tr>
+				    <tr>
+				      <td class="">1</td>
+				      <td class="">2</td>
+				      <td class="">3</td>
+				      <td class="">4</td>
+				      
+				    </tr>
+				  </table>
+				</div>
+				<!-- <div class="bs_table">
+					<div class="table_name">
+						<span id="name">
+						   网点名称	
+						</span>
+					</div>
+					<div class="table_address">
+						<span id="address">
+						   网点地址	
+						</span>
+					</div>
+					<div class="table_way">
+						<span id="way">
+						   联系方式	
+						</span>
+					</div>
+					<div class="table_scope">
+						<span id="scop">
+						   业务范围	
+						</span>
+					</div>
+				</div> -->
+			</div>
+		<!-- 分页 -->	
+			<div class="paging">
+				<nav aria-label="Page navigation">
+				  <ul class="pagination">
+				    <li>
+				      <a href="#" aria-label="Previous">
+				        <span aria-hidden="true">&laquo;</span>
+				      </a>
+				    </li>
+				    <li><a href="#">1</a></li>
+				    
+				    
+				    <li>
+				      <a href="#" aria-label="Next">
+				        <span aria-hidden="true">&raquo;</span>
+				      </a>
+				    </li>
+				  </ul>
+				</nav>
+			</div>
+			
+			
+		</div>
+	<!-- 底部 -->
+		<div class="enddd">
+			<div class="enddd_ul">
+			
+			<ul class="nav nav-pills">
+			  <li style="font-size: 18px;"><a id="en" href="#">隐私政策</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">货物追踪</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">价格时效</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">营业网点</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">违纪查询</a></li>
+			  <li style="font-size: 18px;"><a id="en" href="#">联系德邦</a></li>
+			</ul>
+		</div>
+		<div class="enddd_img">
+			<img src="img/f3.jpg"class="img1" >
+			<img src="img/f2.jpg"class="img2" >
+		</div>
+			
+		</div>	
+	</body>
+	<script type="text/javascript" src="script/jquery.validate.min.js"></script>
+	<script type="text/javascript">
+				$(".list_dt").on("click",function () {
+					$('.list_dd').stop();
+					$(this).siblings("dt").removeAttr("id");
+					if($(this).attr("id")=="open"){
+						$(this).removeAttr("id").siblings("dd").slideUp();
+					}else{
+						$(this).attr("id","open").next().slideDown().siblings("dd").slideUp();
+					}
+				});
+				</script>
+</html>

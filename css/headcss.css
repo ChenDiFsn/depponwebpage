@@ -1,0 +1,115 @@
+.navbar-default .navbar-nav>li>a {
+				color: #FFFFFF;
+			}
+			.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+				color: #FFFFFF;
+			}
+			.navbar-default .navbar-brand {
+			   color: #FFFFFF;
+			}
+			.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+			    color: #FFFFFF;
+				}
+			.navbar-default {
+			   padding: 4px 72px;
+			   
+			}
+			.userimage{
+				width: 405px;
+				    height: 73px;
+				   
+				    margin-left: 165px;
+			}
+			.user{
+				width: 95px;
+				    height: 40px;
+				    display: inline-block;
+				    border-radius: 50% 50%;
+				    text-align: center;
+				    MARGIN-TOP: 20px;
+			}
+			
+			.user span{
+				color: white;
+				font-size: 35px;	
+			}
+			.uid{
+				/* background-color: red; */
+				width: 290px;
+				height: 40px;
+				display: inline-block;
+			}
+			.btn {
+			    display: inline-block;
+			    padding: 3px 12px;
+			    border: 1px solid transparent;
+			    border-radius: 4px;
+			}
+			.btn-default {
+			    color: white;
+			    background-color: #003C8D;
+			    /* border-color: #ccc; */
+			    width: 48px;
+			    height: 34px;
+			}
+			#img{
+				width: 165px;
+				height: 43px;
+				margin-top: -13px;
+				margin-left:-45px;
+			}
+			.navbar {
+			    position: relative;
+			    min-height: 37px;
+			    margin-bottom: 1px;
+			    
+			}
+			.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+			    margin-left: 15px;
+			}
+			.navbar-form {
+			    width: auto;
+			    padding-top: 2px;
+			    padding-bottom: 0;
+			    margin-right: 0;
+			    margin-left: 0;
+			    border: 0;
+			    -webkit-box-shadow: none;
+			    box-shadow: none;
+			}
+			.form-control {
+			    display: block;
+			    width: 100%;
+			    height: 32px;
+			   padding: 1px 12px;
+			   font-size: 20px;
+			   line-height: 1.428571;
+			   color: white;
+			   background-color: #003C8D;
+				background-image: none;
+			   border: 1px solid white;
+			   border-radius: 22px;
+			    }
+		.navbar-right {
+		    float: right!important;
+		    margin-right: -93px;
+		    width: -72px;
+		    height: 39px;
+		    margin-top: 5px;
+		}
+		.nav>li {
+		    margin-left: 6px;
+		  
+		}
+		.nav>li>a {
+		    position: relative;
+		    display: block;
+		    padding: 25px 9px;
+		    /* color: yellow; */
+		}
+
+		.navbar-nav>li>a {
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		    line-height: 36px;
+		}
