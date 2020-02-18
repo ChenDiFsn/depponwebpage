@@ -1,284 +1,322 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<script type="text/javascript"src="script/jquery-3.4.1.js"></script>
-		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
-		<script type="text/javascript"src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/indexcss.css"/>
-		<script type="text/javascript"src="script/function.js">	</script>
-		</head>
-	<body scrolling="no">
-		<div class="head">
-		<iframe   src="head.html" width="1728px" height="74px"frameborder="0"name="head" scrolling="no">   
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="script/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/indexcss.css" />
+    <script type="text/javascript" src="script/function.js">
+    </script>
+      <link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+</head>
+
+<body scrolling="no">
+    <div class="head">
+        <iframe src="head.html" width="100%" height="248px" frameborder="0" name="head" scrolling="no">   
 		</iframe>
-		</div>
-		
-		<!--大图轮播-->
-		<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="carousel slide" id="carousel-example-generic" data-ride="carousel" data-interval="1500">
-							<ol class="carousel-indicators">
-							    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-							    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-						  	</ol>
-						  	<div class="carousel-inner">
-						  		<div class="item active">
-						  			<img src="backgimg/b7.jpg" style="width: 100%; height: 630px;">
-						  		</div>
-						  		<div class="item">
-						  			<img src="backgimg/b3.jpg"style="width: 100%; height: 630px;">
-						  		</div>
-						  		<div class="item">
-						  			<img src="backgimg/b4.jpg"style="width: 100%; height: 630px;">
-						  		</div>
-						  		<div class="item">
-						  			<img src="backgimg/b6.jpg"style="width: 100%; height: 630px;">
-						  		</div>
-						  	</div>
-						  	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-		    					<span class="glyphicon glyphicon-chevron-left"></span>
-		 					</a>
-		 					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-							    <span class="glyphicon glyphicon-chevron-right"></span>
-		  					</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- 订单追踪栏-->
-			<div class="row" id="seach">
-			  <div class="col-md-5"id="md5">
-				  <div  class="col-md-3 express_seach">
-				  	<p style="font-size: 18px;">货物追踪</p>
-				  </div>
-				  
-				   
-				    <div class="col-lg-6">
-				      <div class="input-group">
-				        <input type="text" class="form-control"name="dida" id="dida"  placeholder="请输入运单号查询">
-				        <button type="button" class="btn btn-default seach"style="display: none;">查询</button>
-						<div class="input-group-btn">
-				          <button type="button"id="dropdownMenu1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+    </div>
+
+    <!--大图轮播-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel slide" id="carousel-example-generic" data-ride="carousel" data-interval="1500">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="backgimg/b7.jpg" style="width: 100%; height: 630px;">
+                        </div>
+                        <div class="item">
+                            <img src="backgimg/b3.jpg" style="width: 100%; height: 630px;">
+                        </div>
+                        <div class="item">
+                            <img src="backgimg/b4.jpg" style="width: 100%; height: 630px;">
+                        </div>
+                        <div class="item">
+                            <img src="backgimg/b6.jpg" style="width: 100%; height: 630px;">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 订单追踪栏-->
+    <div class="row" id="seach">
+        <div class="row-top">
+            <div class="col-md-5" id="md5">
+                <div class="col-md-3 express_seach">
+                    <p style="font-size: 18px;">货物追踪</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="dida" id="dida" placeholder="请输入运单号查询">
+                        <button type="button" class="btn btn-default seach" style="display: none;">查询</button>
+                        <div class="input-group-btn">
+                            <!-- <button type="button"  id="dropdownMenu1" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
 						  <span class="caret"></span>
-						  </button> 
-						  
-						  
-						</div>
-						
-						
-					  </div>
-					  </div>
-				
-					  <span id="tishi"class="marks  col-md-12">
+						  </button> -->
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <span id="tishi" class="marks  col-md-12">
 						最多可以查10条运单号,请以逗号,空格键隔开
 					  </span>
-				  </div>
-				 
-				
-			  <div class="col-md-7"id="md7">
-				  <div class="col-md-12" id="divd">
-				  	<span class="glyphicon glyphicon-gift" aria-hidden="true"style="color: white;font-size: 30px;"></span>
-				  </div>
-				  
-				  <div class="col-md-12"id="divd">
-				  	<span class="glyphicon glyphicon-edit" aria-hidden="true"style="color: white;font-size: 30px;"></span>
-				  </div>
-				  <div class="col-md-12"id="divd">
-				  	<span class="glyphicon glyphicon-map-marker" aria-hidden="true"style="color: white;font-size: 30px;"></span>
-				  </div>
-				  <div class="col-md-12"id="divd">
-				  	<span class="glyphicon glyphicon-record" aria-hidden="true"style="color: white;font-size: 30px;"></span>
-				  </div>
-				  <span  id="span1">
+            </div>
+
+
+            <div class="col-md-7" id="md7">
+                <div class="col-md-12" id="divd">
+                    <span class="glyphicon glyphicon-gift" aria-hidden="true" style="color: white;font-size: 30px;"></span>
+                </div>
+
+                <div class="col-md-12" id="divd">
+                    <span class="glyphicon glyphicon-edit" aria-hidden="true" style="color: white;font-size: 30px;"></span>
+                </div>
+                <div class="col-md-12" id="divd">
+                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true" style="color: white;font-size: 30px;"></span>
+                </div>
+                <div class="col-md-12" id="divd">
+                    <span class="glyphicon glyphicon-record" aria-hidden="true" style="color: white;font-size: 30px;"></span>
+                </div>
+                <span id="span1">
 				  	<h5>在线下单</h5>
 				  </span>
-				  <span id="span1">
+                <span id="span1">
 				  	<h5>价格时效查询</h5>
 				  </span>
-				  <span id="span1">
-				  	<h5>网点查询</h5>
+                <span id="span1">
+					<h5>网点查询</h5>
 				  </span>
-				  <span id="span1">
+                <span id="span1">
 				  	<h5>收派范围查询</h5>
 				  </span>
-			  </div>
-			  
-			</div>
-			<!--主要业务-->
-			<div class="imports">
-				<img src="img/SharedScreenshot1.jpg"style="width: 100%;height: 70px;" >
-			</div>
-			<!-- <div class="imports_one">
+            </div>
+        </div>
+        <div class="cargo-tracking">
+            <div class="cargo-tracking-head">
+                <div class="cargo-tracking-head-title">
+                    货物追踪<i class="layui-icon layui-icon-close"></i>
+                </div>
+                <div class="cargo-tracking-body">
+                    <ul>
+                        <li>
+                            <div class="cargo-tracking-body-title">
+                                <span>运单</span>
+                                <span>寄</span>
+                                <span>收</span>
+                                <span>货物名称</span>
+                                <span>预计到达时间</span>
+                                <span>当前位置</span>
+                            </div>
+                            <div class="cargo-tracking-body-value">
+                                <span>1231231231</span>
+                                <span>--</span>
+                                <span>--</span>
+                                <span>--</span>
+                                <span></span>
+                                <span>--</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--主要业务-->
+    <div class="imports">
+        <img src="img/SharedScreenshot1.jpg" style="width: 100%;height: 70px;">
+    </div>
+    <!-- <div class="imports_one">
 				<span>快递</span>
 				<span>物流</span>
 				<span>解决方案</span>
 			</div> -->
-			
-			<!-- 主要业务详情-->
-			<div class="img_con">
 
-			<div class="row imgs">
-			  <div class="col-sm-6 col-md-4 conter">
-			    <div class="thumbnail th1">
-			      <img src="img/a1.jpg" alt="..." id="con-img1">
-							  <div class="caption">
-								<h2>快递</h2>
-								<span id="a1"><a href="#">*标准快递</a></span>
-								<span id="a1"><a href="#">*特快快递</a></span>
-								<p><h3>产品优势</h3>
-								上楼无忧、包接包送，大小件齐发、件数不限、计价简单、旺季不限收</p>
-								<p><h3>发货指导</h3>
-								   单件3-60KG：发大件快递3.60，更便捷、更省心、更稳定、更可靠。</p>
-								<p><a href="#" class="btn btn-primary" role="button">了解更多</a> 
-								   <a href="#" class="btn btn-default" role="button">获得报价</a></p>
-							  </div>
-			    </div>
-			  </div>
-			</div>
-			
-			<div class="row imgs">
-			  <div class="col-sm-6 col-md-4 conter">
-						<div class="thumbnail th2">
-							  <img src="img/a2.jpg" alt="..."id="con-img1">
-						     <div class="caption">
-									<h2>物流</h2>
-									<span id="a1"><a href="#">*零担</a></span>
-									<span id="a1"><a href="#">*整车</a></span>
-									
-									<p><h3>零担</h3>
-									精准卡航，限时送达
-									空运速度，汽运价格，保障你的货物准时、安全送达</p>
-									<p><h3>整车</h3>
-									   十万客户信赖，成就专业整车，承载您对德邦品质的信任，为您打造专业的整车运输方案</p>
-									
-									<p><a href="#" class="btn btn-primary" role="button">了解更多</a>
-									   <a href="#" class="btn btn-default" role="button">获得报价</a></p>
-						  </div>
-						</div>
-			  </div>
-			</div>
-			
-			<div class="row imgs">
-			  <div class="col-sm-6 col-md-4 conter">
-			    <div class="thumbnail th3"id="th3">
-			                <img src="img/a3.jpg" alt="..." id="con-img1">  
-									<div class="caption">
-										<h2>解决方案</h2>
-										<span id="a1"><a href="#">*跨境物流</a></span>
-										<span id="a1"><a href="#">*仓储与供应链</a></span>
-										
-										
-										<p><h3>跨境物流</h3>
-										东航唯一联名，轨迹全程可视，上海口岸快捷清关。为满足客户寄递非紧急物品需求而推出的经济型门到门国际快件服务。</p>
-										<p><h3>仓储与供应链</h3>
-										   依托德邦全网布局及大件能力，通过自助研发OMS、WMS、TMS，实现企业供应链系统集成与数据交换，为客户提供一站式仓储配送等综合服务</p>
-										
-										
-										<p><a href="#" class="btn btn-primary" role="button">了解更多</a>
-										   <a href="#" class="btn btn-default" role="button">获得报价</a></p>
-									  </div>
-			    </div>
-			  </div>
-			</div>
-		</div>
-			<!--新闻资讯-->
-			<div class="news_head">
-				<h1>新闻资讯</h1>
-			</div>
-			
-			<div class="news_di">
-				<div class="row dihe">
-					<div class="col-md-1"></div>
-				  <div class="col-md-1 di1"></div>
-				  <div class="col-md-1"></div>
-				  <div class="col-md-1 di2"></div>
-				  <div class="col-md-1"></div>
-				 
-				  </div>
-			</div>
-			
-			
-			<div class="news_import">
-				
-				<div class="row contern">
-				 <div class="col-xs-6 col-md-3"id="b1">
-				   <a href="#" class="thumbnail">
-				     <img src="img/e1.jpg" id="new_imgs">
-				   </a>
-				 </div>
-				  <div class="col-xs-6 col-md-3"id="b1">
-				    <a href="#" class="thumbnail">
-				      <img src="img/e2.jpg" id="new_imgs">
-				    </a>
-				  </div>
-				  <div class="col-xs-6 col-md-3"id="b1">
-				    <a href="#" class="thumbnail">
-				      <img src="img/e3.jpg" id="new_imgs">
-				    </a>
-				  </div>
-					<div class="col-xs-6 col-md-3"id="b1">
-					  <a href="#" class="thumbnail">
-					    <img src="img/e4.jpg" id="new_imgs">
-					  </a>
-					</div>	
-					</div>
-					
-					
-					<div class="row contern2">	
-					<div class="col-xs-6 col-md-3"id="b2">
-					  <a href="#" class="thumbnail">
-					    <img src="img/e5.jpg" id="new_imgs">
-					  </a>
-					</div>		
-					<div class="col-xs-6 col-md-3"id="b2">
-					  <a href="#" class="thumbnail">
-					    <img src="img/e6.jpg" id="new_imgs">
-					  </a>
-					</div>		
-					<div class="col-xs-6 col-md-3"id="b2">
-					  <a href="#" class="thumbnail">
-					    <img src="img/e7.jpg" id="new_imgs">
-					  </a>
-					</div>		
-					<div class="col-xs-6 col-md-3"id="b2">
-					  <a href="#" class="thumbnail">
-					    <img src="img/e9.jpg" id="new_imgs">
-					  </a>
-					</div>		
-						
-					</div>	
-				
-				
-			</div>
-		
-			<div class="news_all">	
-				<span class="news_all_span">
+    <!-- 主要业务详情-->
+    <div class="img_con">
+
+        <div class="row imgs">
+            <div class="col-sm-6 col-md-4 conter">
+                <div class="thumbnail th1">
+                    <img src="img/a1.jpg" alt="..." id="con-img1">
+                    <div class="caption">
+                        <h2>快递</h2>
+                        <span id="a1"><a href="#">*标准快递</a></span>
+                        <span id="a1"><a href="#">*特快快递</a></span>
+                        <p>
+                            <h3>产品优势</h3>
+                            上楼无忧、包接包送，大小件齐发、件数不限、计价简单、旺季不限收</p>
+                        <p>
+                            <h3>发货指导</h3>
+                            单件3-60KG：发大件快递3.60，更便捷、更省心、更稳定、更可靠。</p>
+                        <p><a href="#" class="btn btn-primary" role="button">了解更多</a>
+                            <a href="#" class="btn btn-default" role="button">获得报价</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row imgs">
+            <div class="col-sm-6 col-md-4 conter">
+                <div class="thumbnail th2">
+                    <img src="img/a2.jpg" alt="..." id="con-img1">
+                    <div class="caption">
+                        <h2>物流</h2>
+                        <span id="a1"><a href="#">*零担</a></span>
+                        <span id="a1"><a href="#">*整车</a></span>
+
+                        <p>
+                            <h3>零担</h3>
+                            精准卡航，限时送达 空运速度，汽运价格，保障你的货物准时、安全送达
+                        </p>
+                        <p>
+                            <h3>整车</h3>
+                            十万客户信赖，成就专业整车，承载您对德邦品质的信任，为您打造专业的整车运输方案</p>
+
+                        <p><a href="#" class="btn btn-primary" role="button">了解更多</a>
+                            <a href="#" class="btn btn-default" role="button">获得报价</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row imgs">
+            <div class="col-sm-6 col-md-4 conter">
+                <div class="thumbnail th3" id="th3">
+                    <img src="img/a3.jpg" alt="..." id="con-img1">
+                    <div class="caption">
+                        <h2>解决方案</h2>
+                        <span id="a1"><a href="#">*跨境物流</a></span>
+                        <span id="a1"><a href="#">*仓储与供应链</a></span>
+
+
+                        <p>
+                            <h3>跨境物流</h3>
+                            东航唯一联名，轨迹全程可视，上海口岸快捷清关。为满足客户寄递非紧急物品需求而推出的经济型门到门国际快件服务。</p>
+                        <p>
+                            <h3>仓储与供应链</h3>
+                            依托德邦全网布局及大件能力，通过自助研发OMS、WMS、TMS，实现企业供应链系统集成与数据交换，为客户提供一站式仓储配送等综合服务</p>
+
+
+                        <p><a href="#" class="btn btn-primary" role="button">了解更多</a>
+                            <a href="#" class="btn btn-default" role="button">获得报价</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--新闻资讯-->
+    <div class="news_head">
+        <h1>新闻资讯</h1>
+    </div>
+
+    <div class="news_di">
+        <div class="row dihe">
+            <div class="col-md-1"></div>
+            <div class="col-md-1 di1"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-1 di2"></div>
+            <div class="col-md-1"></div>
+
+        </div>
+    </div>
+
+
+    <div class="news_import">
+
+        <div class="row contern">
+            <div class="col-xs-6 col-md-3" id="b1">
+                <a href="#" class="thumbnail">
+                    <img src="img/e1.jpg" id="new_imgs">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3" id="b1">
+                <a href="#" class="thumbnail">
+                    <img src="img/e2.jpg" id="new_imgs">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3" id="b1">
+                <a href="#" class="thumbnail">
+                    <img src="img/e3.jpg" id="new_imgs">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3" id="b1">
+                <a href="#" class="thumbnail">
+                    <img src="img/e4.jpg" id="new_imgs">
+                </a>
+            </div>
+        </div>
+
+
+        <div class="row contern2">
+            <div class="col-xs-6 col-md-3" id="b2">
+                <a href="#" class="thumbnail">
+                    <img src="img/e5.jpg" id="new_imgs">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3" id="b2">
+                <a href="#" class="thumbnail">
+                    <img src="img/e6.jpg" id="new_imgs">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3" id="b2">
+                <a href="#" class="thumbnail">
+                    <img src="img/e7.jpg" id="new_imgs">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3" id="b2">
+                <a href="#" class="thumbnail">
+                    <img src="img/e9.jpg" id="new_imgs">
+                </a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="news_all">
+        <span class="news_all_span">
 					<a >查看全部</a>
 				</span>
-				
-			</div>
-			
-		<div class="partn_img">
-			<img src="backgimg/SharedScreenshot.jpg"style="width: 100%;height: 345px;margin-top: -80px;" >
-		</div>	
-		
-		<div class="tell">
-			<div class="tell_con">
-				<h1>将您对德邦快递的任何疑问用以下方式告诉我们</h1>
-			</div>
-			<button type="button"id="btn1" class="btn btn-default btn-lg" >联系客服</button>
-			<button type="button"id="btn1" class="btn btn-default btn-lg">查找最近营业部</button>
-		</div>
-	<div class="foot">	
-	<iframe MARGINWIDTH="0" MARGINHEIGHT="0" HSPACE="0" VSPACE="0" FRAMEBORDER="0" SCROLLING="no" src="end.html" height="650px" width="100%"></iframe>
-	</div>
-	
-	</body>
-   
-	
+
+    </div>
+
+    <div class="partn_img">
+        <img src="backgimg/SharedScreenshot.jpg" style="width: 100%;height: 345px;margin-top: -80px;">
+    </div>
+
+    <div class="tell">
+        <div class="tell_con">
+            <h1>将您对德邦快递的任何疑问用以下方式告诉我们</h1>
+        </div>
+        <button type="button" id="btn1" class="btn btn-default btn-lg">联系客服</button>
+        <button type="button" id="btn1" class="btn btn-default btn-lg">查找最近营业部</button>
+    </div>
+    <div class="foot">
+        <iframe MARGINWIDTH="0" MARGINHEIGHT="0" HSPACE="0" VSPACE="0" FRAMEBORDER="0" SCROLLING="no" src="end.html" height="650px" width="100%"></iframe>
+    </div>
+
+</body>
+
+
 </html>

@@ -1,130 +1,141 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>导航栏</title>
-		<script type="text/javascript"src="script/jquery-3.4.1.js">	
-		</script>
-		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
-		<script type="text/javascript"src="bootstrap-3.3.7-dist/js/bootstrap.min.js">	
-		</script>
-		<script type="text/javascript" src="script/head.js">
-			
-		</script>
-		<style type="text/css">
-			.navbar-default .navbar-nav>li>a {
-				color: #FFFFFF;
-			}
-			.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-				color: #FFFFFF;
-			}
-			.navbar-default .navbar-brand {
-			   color: #FFFFFF;
-			}
-			.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-			    color: #FFFFFF;
-				}
-			.navbar-default {
-			    padding: 11px 143px;
-			}
-			#img{
-				width: 165px;
-				height: 43px;
-				margin-top: -13px;
-				margin-left:-45px;
-			}
-		</style>
-		
-		
-	</head>
-	<body >
-		<!-- 导航栏-->
-		<nav class="navbar navbar-default" style="background-color: #003c8d;color: #fff;">
-			
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+<head>
+    <meta charset="utf-8">
+    <title>导航栏</title>
+    <script type="text/javascript" src="script/jquery-3.4.1.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js">
+    </script>
+    <script type="text/javascript" src="script/head.js">
+    </script>
+    <style type="text/css">
+        .navbar-default .navbar-nav>li>a {
+            color: #FFFFFF;
+        }
+        
+        .navbar-default .navbar-nav>li>a:focus,
+        .navbar-default .navbar-nav>li>a:hover {
+            color: #FFFFFF;
+        }
+        
+        .navbar-default .navbar-brand {
+            color: #FFFFFF;
+        }
+        
+        .navbar-default .navbar-brand:focus,
+        .navbar-default .navbar-brand:hover {
+            color: #FFFFFF;
+        }
+        
+        .navbar-default {
+            padding: 11px 143px;
+        }
+        
+        #img {
+            width: 165px;
+            height: 43px;
+            margin-top: -13px;
+            margin-left: -45px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- 导航栏-->
+    <nav class="navbar navbar-default" style="background-color: #003c8d;color: #fff;">
+
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-			  <a class="navbar-brand" href="#"><img id="img" src="https://www.deppon.com/get/asset/ff80808168bf14850169c28025850098" ></a>
-		      <a class="navbar-brand" href="#">首页</a>
-		    </div>
-		
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		        <li class="dropdown li-one"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">寄件</a>
-		          <ul class="dropdown-menu menu1">
-		            <li><a href="#">价格时效查询</a></li>
-		            <li><a href="#">在线下单</a></li>
-		            <li><a href="#">网点查询</a></li>
-		            <li role="separator" class="divider"></li>
-		            <li><a href="#">收送范围查询</a></li>
-		          </ul>
-				  </li>
-				
-		        <li class="dropdown li-two">
-				    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">追踪管理</a>
-				    <ul class="dropdown-menu">
-				      <li><a href="#">货物追踪</a></li>
-				      <li><a href="#">我的订单</a></li>
-				      <li><a href="#">我的账单</a></li>
-				      <li role="separator" class="divider"></li>
-				      <li><a href="#">在线理赔</a></li>
-				      <li role="separator" class="divider"></li>
-				      <li><a href="#">账号管理</a></li>
-				    </ul>
-				
-				</li>
-				
-				<li class="dropdown li-three">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品介绍</a>
-					<ul class="dropdown-menu">
-					  <li><a href="#">Action</a></li>
-					  <li><a href="#">Another action</a></li>
-					  <li><a href="#">Something else here</a></li>
-					  <li role="separator" class="divider"></li>
-					  <li><a href="#">Separated link</a></li>
-					  <li role="separator" class="divider"></li>
-					  <li><a href="#">One more separated link</a></li>
-					</ul>
-				</li>
-				
-				<li><a href="#">帮助中心</a></li>
-				
-				
-		        <li class="dropdown li-four">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于</a>
-		          <ul class="dropdown-menu">
-		            <li><a href="#">Action</a></li>
-		            <li><a href="#">Another action</a></li>
-		            <li><a href="#">Something else here</a></li>
-		            <li role="separator" class="divider"></li>
-		            <li><a href="#">Separated link</a></li>
-		            <li role="separator" class="divider"></li>
-		            <li><a href="#">One more separated link</a></li>
-		          </ul>
-		        </li>
-		      </ul>
-		      <form class="navbar-form navbar-left">
+                <a class="navbar-brand" href="#"><img id="img" src="https://www.deppon.com/get/asset/ff80808168bf14850169c28025850098"></a>
+                <a class="navbar-brand" href="#">首页</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown li-one"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">寄件</a>
+                        <ul class="dropdown-menu menu1">
+                            <li><a href="#">价格时效查询</a></li>
+                            <li><a href="#">在线下单</a></li>
+                            <li><a href="#">网点查询</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">收送范围查询</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown li-two">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">追踪管理</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">货物追踪</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">我的账单</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">在线理赔</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">账号管理</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="dropdown li-three">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品介绍</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">帮助中心</a></li>
+
+
+                    <li class="dropdown li-four">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- <form class="navbar-form navbar-left">
 		        <div class="form-group">
 		          <input type="text" class="form-control" placeholder="Search">
 		        </div>
 		        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-		      </form>
-		      <ul class="nav navbar-nav navbar-right">
-				 <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>  
-				 <li><a href="#">登录</a></li> 
-				 <li><a >|</a></li> 
-		        <li><a href="#">注册</a></li>
-		        
-		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-				
-	</body>
+		      </form> -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+                    <li><a href="#">登录</a></li>
+                    <li><a>|</a></li>
+                    <li><a href="#">注册</a></li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+
+</body>
+
 </html>
